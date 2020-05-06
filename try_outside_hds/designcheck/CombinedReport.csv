@@ -1,0 +1,267 @@
+Results Summary
+
+Settings
+DesignChecker Version:,v2020_2
+Time of Running Analysis:,5/6/2020 - 12:51:46 PM (Egypt Standard Time)
+Policy:,My_Essentials_Policy
+Policy Status:,Saved
+Policy Path:,C:\Users\waly\AppData\Roaming\HDL Designer Series\dc_user\policies\v2020_2\My_Essentials_Policy_policy
+Policy Timestamp:,5/6/2020 - 1:51:22 PM (Egypt Standard Time)
+RuleSet:,Essentials
+RuleSet Status:,Saved
+RuleSet Path:,C:\Users\waly\AppData\Roaming\HDL Designer Series\dc_user\rulesets\v2020_2\Essentials_ruleset
+RuleSet Timestamp:,5/6/2020 - 1:51:20 PM (Egypt Standard Time)
+Library:,git_uart_txt
+Primary:,uart_top
+Secondary:,rtl
+Master Clocks:,clk
+Master Resets:,rst
+Depth:,ThroughComponentHierarchy
+Check Level:,Design Unit Level
+Number of Exclusions
+Policy Disabled Rules,0
+Code/Rule Exclusions,0
+Black Boxed Files,0
+Don't Touch Files,0
+Exclusion Pragmas,1
+Pragma Code Excluded,1
+Missing Masters,0
+Unbound Instances,0
+Design Quality: 216/257 (84%)
+Quality Score:,84%
+Score/Total Possible Score:,216/257,Excludes 0 Disabled Rules
+RuleSet Hierarchy Report:
+Ruleset,Score,%,Error,Warning,Note,Total,Disabled
+My_Essentials_Policy,216/257,84%,3,5,1,53,0
+     Essentials,216/257,84%,3,5,1,53,0
+          Coding Practices,79/83,95%,0,2,0,19,0
+          Downstream Checks,89/106,84%,1,3,1,22,0
+          Code Reuse,8/8,100%,0,0,0,6,0
+          FSM,20/30,67%,1,0,0,3,0
+          Dead Logic,10/20,50%,1,0,0,2,0
+Violations: 21
+Number of primary violations for each severity:
+Syntax Error,0
+Elaboration Error,0
+Synthesis Error,0
+Error,11 from 3 Rules
+Warning,9 from 5 Rules
+Note,1 from 1 Rule
+Number of excluded violations for each severity:
+Error,0
+Warning,0
+Note,0
+Number of primary violations for each scope:
+Scope,Violations,%,Excluded Violations,%
+File,0,0.00%,0,0.00%
+Unknown,0,0.00%,0,0.00%
+Configuration,0,0.00%,0,0.00%
+Package Header,0,0.00%,0,0.00%
+Package Body,0,0.00%,0,0.00%
+Module,2,9.52%,0,0.00%
+Interface,0,0.00%,0,0.00%
+SV Package,0,0.00%,0,0.00%
+Program Block,0,0.00%,0,0.00%
+Class,0,0.00%,0,0.00%
+Architecture,16,76.19%,0,0.00%
+Entity,3,14.29%,0,0.00%
+Context,0,0.00%,0,0.00%
+Rules: (Using policy My_Essentials_Policy)
+Rules Setting, grouped by RuleSet:
+RuleSet,Failed,Total,Failed %,Disabled,Not-Run,Partially-Run,Fully-Run
+All,9,53,16.98%,0,0,0,53
+     Essentials,9,53,16.98%,0,0,0,53
+          Coding Practices,2,19,10.53%,0,0,0,19
+          Downstream Checks,5,22,22.73%,0,0,0,22
+          Code Reuse,0,6,0.00%,0,0,0,6
+          FSM,1,3,33.33%,0,0,0,3
+          Dead Logic,1,2,50.00%,0,0,0,2
+Design Units
+Failed and excluded Design Unit types:
+Design Unit,Failed,Total,Failed %,Excluded
+All,5,23,21.74%,0
+  File,0,8,0.00%,0
+  Module,1,1,100.00%,0
+  Interface,0,0,0.00%,0
+  Program Block,0,0,0.00%,0
+  Configuration,0,0,0.00%,0
+  SV Package,0,0,0.00%,0
+  Class,0,0,0.00%,0
+  Package Header,0,0,0.00%,0
+  Package Body,0,0,0.00%,0
+  Architecture,2,7,28.57%,0
+  Entity,2,7,28.57%,0
+  Context,0,0,0.00%,0
+
+
+Analysis Results
+
+Rule Severity,"Severity, Ruleset and Rule","Library, Design Unit and Scope",Message,Line Number
+Warning,Warning : Coding Practices - Logical and Bitwise Operators,"git_uart_txt, clock_divider, Module","Do not use bitwise operators: '&', '|' and '~' in conditions",69
+Warning,Warning : Downstream Checks - Asynchronous Block,"git_uart_txt, clock_divider, Module",Asynchronous always block contains more than one sequential statement. This may not be synthesizable. Use single cascade of if-else-if.,94
+Warning,Warning : Coding Practices - Unused Declarations,"UART_TXT, serial_interface, Architecture",Signal 'zeros' is never used (read from) or assigned (written to) in architecture rtl of serial_interface.,48
+Warning,Warning : Coding Practices - Unused Declarations,"git_uart_txt, uart_top, Architecture","Signal 'zeros' is never used (read from) or assigned (written to) in architecture rtl of serial_interface, instantiated as U_4.",160
+Error,Error : Dead Logic - Reachability,"UART_TXT, xmit_rcv_control, Architecture",Block of code is unreachable in design.,172
+Error,Error : Dead Logic - Reachability,"UART_TXT, control_operation, Architecture",Block of code is unreachable in design.,132
+Error,Error : Dead Logic - Reachability,"UART_TXT, xmit_rcv_control, Architecture",Block of code is unreachable in design.,211
+Error,Error : Dead Logic - Reachability,"UART_TXT, xmit_rcv_control, Architecture",Block of code is unreachable in design.,326
+Error,Error : Dead Logic - Reachability,"UART_TXT, serial_interface, Architecture",Block of code is unreachable in design.,121
+Error,Error : FSM - FSM Coding Style,"UART_TXT, control_operation, Architecture",FSM is not coded using Clocked + Separate Transition-Output Process.,94
+Error,Error : FSM - FSM Coding Style,"UART_TXT, xmit_rcv_control, Architecture",FSM is not of type Moore.,90
+Error,Error : FSM - FSM Coding Style,"UART_TXT, xmit_rcv_control, Architecture",FSM is not coded using Clocked + Separate Transition-Output Process.,157
+Error,Error : FSM - FSM Coding Style,"UART_TXT, xmit_rcv_control, Architecture",FSM is not of type Moore.,236
+Error,Error : FSM - FSM Coding Style,"UART_TXT, xmit_rcv_control, Architecture",FSM is not coded using Clocked + Separate Transition-Output Process.,288
+Warning,Warning : Downstream Checks - Reset Logic Function,"UART_TXT, status_registers, Entity",Net 'clear_flags' is used both in a logic function and as a synchronous reset.,18
+Warning,Warning : Downstream Checks - Reset Logic Function,"UART_TXT, status_registers, Architecture",Net 'clear_flags' that is input to a logic function is also used as a synchronous reset elsewhere.,38
+Warning,Warning : Downstream Checks - Reset Logic Function,"UART_TXT, status_registers, Architecture",Synchronous reset 'clear_flags' of register 'xmitting_reg' is also used in a logic function elsewhere.,38
+Warning,Warning : Downstream Checks - Initialization Assignments,"UART_TXT, status_registers, Architecture",Signal 'xmitting_reg' has been initialized at declaration time.,33
+Warning,Warning : Downstream Checks - Initialization Assignments,"UART_TXT, status_registers, Architecture",Signal 'done_xmitting_reg' has been initialized at declaration time.,33
+Warning,Warning : Downstream Checks - Initialization Assignments,"UART_TXT, status_registers, Architecture",Signal 'rcving_reg' has been initialized at declaration time.,34
+Warning,Warning : Downstream Checks - Initialization Assignments,"UART_TXT, status_registers, Architecture",Signal 'done_rcving_reg' has been initialized at declaration time.,34
+Warning,Warning : Downstream Checks - Initialization Assignments,"UART_TXT, xmit_rcv_control, Architecture",Signal 'xmit_bit_cnt' has been initialized at declaration time.,39
+Note,Note : Downstream Checks - Register IO,"git_uart_txt, uart_top, Entity",Top level output port 'int' is used without being registered.,28
+Note,Note : Downstream Checks - Register IO,"UART_TXT, status_registers, Entity",Output port 'int' is used without being registered.,25
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"git_uart_txt, uart_top, Entity",Asynchronous reset 'uart_top.rst' is not synchronized before being used.,24
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"git_uart_txt, clock_divider, Module",Asynchronous reset 'rst' of always block is not released synchronously.,56
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"UART_TXT, status_registers, Architecture",Asynchronous reset 'rst' of process is not released synchronously.,38
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"UART_TXT, xmit_rcv_control, Architecture",Asynchronous reset 'rst' of process is not released synchronously.,217
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"UART_TXT, xmit_rcv_control, Architecture",Asynchronous reset 'rst' of process is not released synchronously.,76
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"UART_TXT, serial_interface, Architecture",Asynchronous reset 'rst' of process is not released synchronously.,94
+Error,Error : Downstream Checks - Avoid Asynchronous Reset Release,"UART_TXT, control_operation, Architecture",Asynchronous reset 'rst' of process is not released synchronously.,52
+
+
+Exclusions
+
+Code/Rule Exclusions
+Object Name,Start Line,End Line,Library,Rule Name,Object Type,Justification,Affects Results,Object Full Name,Rule Location
+Black Boxed Files
+File Name,Library,Dialect,File Path,Justification
+Don't Touch Files
+File Name,Library,Dialect,File Path,Justification
+Exclusion Pragmas
+Pragma Classes,Start Pragma,End Pragma
+"hds, pragma, synthesis, exemplar, synopsys",translate_off,translate_on
+"pragma, synthesis, exemplar, synopsys",synthesis_off,synthesis_on
+"pragma, synthesis, synopsys",dc_script_begin,dc_script_end
+Pragma Code Excluded
+Start Pragma,End Pragma,File Name,Start Line,End Line,File Path
+synthesis_off,synthesis_on,uart_top_rtl.vhd,114,118,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl\uart_top_rtl.vhd
+Unbound Component/Instances
+Instance Name,Master Name,File Name,Line,File Path
+Summary
+Policy Disabled Rules
+Policy:,My_Essentials_Policy
+Disabled Rules:,0
+Code/Rule Exclusions
+Libraries:,"UART_TXT, git_uart_txt"
+Exclusions:,0
+Exclusions In Play:,0
+Black Boxed Files
+Exclusions:,0
+Don't Touch Files
+Exclusions:,0
+Exclusion Pragmas
+Excluded Blocks:,1
+Exclusion Pragmas:,1
+Unbound Component/Instances
+Unbound Instances:,0
+Missing Masters:,0
+
+
+Checked Files and Design Units
+
+Checked Files
+Name,Order,Language,Syntax Error(s),Code-Rule Excluded,Black Boxed,Library,Path
+control_operation_fsm.vhd,1,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+xmit_rcv_control_fsm.vhd,2,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+status_registers_rtl.vhd,3,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+cpu_interface_rtl.vhd,4,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+clock_divider.v,5,Verilog, No , No , No ,git_uart_txt,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl
+address_decode_rtl.vhd,6,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+serial_interface_rtl.vhd,7,VHDL, No , No , No ,UART_TXT,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl
+uart_top_rtl.vhd,8,VHDL, No , No , No ,git_uart_txt,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl
+Checked Design Units
+Primary,Design Unit Type,Secondary,RTL,Code-Rule Excluded,Black Boxed,Language,Library,File Name,File Path
+address_decode,Entity,, RTL , No , No ,VHDL,UART_TXT,address_decode_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\address_decode_rtl.vhd
+address_decode,Architecture,rtl, RTL , No , No ,VHDL,UART_TXT,address_decode_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\address_decode_rtl.vhd
+control_operation,Entity,, RTL , No , No ,VHDL,UART_TXT,control_operation_fsm.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\control_operation_fsm.vhd
+control_operation,Architecture,fsm, RTL , No , No ,VHDL,UART_TXT,control_operation_fsm.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\control_operation_fsm.vhd
+cpu_interface,Entity,, RTL , No , No ,VHDL,UART_TXT,cpu_interface_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\cpu_interface_rtl.vhd
+cpu_interface,Architecture,rtl, RTL , No , No ,VHDL,UART_TXT,cpu_interface_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\cpu_interface_rtl.vhd
+serial_interface,Entity,, RTL , No , No ,VHDL,UART_TXT,serial_interface_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\serial_interface_rtl.vhd
+serial_interface,Architecture,rtl, RTL , No , No ,VHDL,UART_TXT,serial_interface_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\serial_interface_rtl.vhd
+status_registers,Entity,, RTL , No , No ,VHDL,UART_TXT,status_registers_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\status_registers_rtl.vhd
+status_registers,Architecture,rtl, RTL , No , No ,VHDL,UART_TXT,status_registers_rtl.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\status_registers_rtl.vhd
+xmit_rcv_control,Entity,, RTL , No , No ,VHDL,UART_TXT,xmit_rcv_control_fsm.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\xmit_rcv_control_fsm.vhd
+xmit_rcv_control,Architecture,fsm, RTL , No , No ,VHDL,UART_TXT,xmit_rcv_control_fsm.vhd,C:\d_drive\Builds\HDS\hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint\examples\uart_txt\hdl\xmit_rcv_control_fsm.vhd
+clock_divider,Module,, RTL , No , No ,Verilog,git_uart_txt,clock_divider.v,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl\clock_divider.v
+uart_top,Entity,, RTL , No , No ,VHDL,git_uart_txt,uart_top_rtl.vhd,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl\uart_top_rtl.vhd
+uart_top,Architecture,rtl, RTL , No , No ,VHDL,git_uart_txt,uart_top_rtl.vhd,C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl\uart_top_rtl.vhd
+
+
+Rule Details
+
+Rule Details
+Name,Enabled,Run,Failed,Justification
+My_Essentials_Policy
+     Essentials
+          Sub-Program Body, Enabled , Full , Pass ,
+          Coding Practices
+               Unused Declarations, Enabled , Full , Fail ,
+               Unassigned Objects, Enabled , Full , Pass ,
+               Unconnected Input Ports, Enabled , Full , Pass ,
+               Gated Clocks, Enabled , Full , Pass ,
+               Internally Generated Clocks, Enabled , Full , Pass ,
+               Internally Generated Resets, Enabled , Full , Pass ,
+               Mixed Clocks Resets, Enabled , Full , Pass ,
+               Consistent Resets, Enabled , Full , Pass ,
+               Multiple Drivers, Enabled , Full , Pass ,
+               Matching Range, Enabled , Full , Pass ,
+               FSM Transitions, Enabled , Full , Pass ,
+               Logical and Bitwise Operators, Enabled , Full , Fail ,
+               Sub-Program Body, Enabled , Full , Pass ,
+               Unknown Objects, Enabled , Full , Pass ,
+               Avoid Feedthroughs, Enabled , Full , Pass ,
+               Duplicate Signal Assignments, Enabled , Full , Pass ,
+               Avoid Mixed Case Naming (for Differentiation) in Verilog, Enabled , Full , Pass ,
+               Mixed Variable Assignments, Enabled , Full , Pass ,
+               Port Mapping, Enabled , Full , Pass ,
+          Downstream Checks
+               Sensitivity List, Enabled , Full , Pass ,
+               Clock Used As Data, Enabled , Full , Pass ,
+               Latch Inference, Enabled , Full , Pass ,
+               Register IO, Enabled , Full , Fail ,
+               Initialization Assignments, Enabled , Full , Fail ,
+               Non Synthesizable Constructs, Enabled , Full , Pass ,
+               Untested Edge Trigger, Enabled , Full , Pass ,
+               Constrained Ranges & Bounds, Enabled , Full , Pass ,
+               Asynchronous Block, Enabled , Full , Fail ,
+               Non Synthesizable Operators, Enabled , Full , Pass ,
+               Unsynthesizable Event Controls, Enabled , Full , Pass ,
+               Avoid Asynchronous Reset Release, Enabled , Full , Fail ,
+               Combinational Feedback, Enabled , Full , Pass ,
+               Continuous Assignments, Enabled , Full , Pass ,
+               Ensure Proper Case Statement Specification, Enabled , Full , Pass ,
+               Register Controllability, Enabled , Full , Pass ,
+               Avoid Uninitialized Deferred Constants, Enabled , Full , Pass ,
+               Snake Paths, Enabled , Full , Pass ,
+               Re-entrant Outputs, Enabled , Full , Pass ,
+               Reset Logic Function, Enabled , Full , Fail ,
+               Controllable Resets, Enabled , Full , Pass ,
+               Register Reset Control, Enabled , Full , Pass ,
+          Code Reuse
+               Disallowed Pragmas, Enabled , Full , Pass ,
+               Vector Order, Enabled , Full , Pass ,
+               Use IEEE port types for top level, Enabled , Full , Pass ,
+               Avoid large design files, Enabled , Full , Pass ,
+               Use integer types for Array Bounds, Enabled , Full , Pass ,
+"               Use allowed types for Ports, Signals, VHDL Variables", Enabled , Full , Pass ,
+          FSM
+               FSM Coding Style, Enabled , Full , Fail ,
+               FSM State Encoding Style, Enabled , Full , Pass ,
+               FSM Transitions, Enabled , Full , Pass ,
+          Dead Logic
+               Undriven & Unused Logic, Enabled , Full , Pass ,
+               Reachability, Enabled , Full , Fail ,
+
+
