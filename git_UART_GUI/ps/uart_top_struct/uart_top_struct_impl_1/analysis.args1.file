@@ -1,0 +1,11 @@
+8:-out_dir
+151:C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1//rtlc.out
+10:-pipe_flow
+2:-v
+76:C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/rtlc_psr/rtlc/lib/unimacro.v
+25:-comment_transoff_regions
+13:-lib_map_file
+151:C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1//.jaguarc
+7:-sv2009
+215:+incdir+C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl+C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct
+17:+define+synthesis

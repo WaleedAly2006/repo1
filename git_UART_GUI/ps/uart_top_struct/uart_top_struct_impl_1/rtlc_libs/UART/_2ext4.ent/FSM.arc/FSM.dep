@@ -1,0 +1,5 @@
+1588851865.971000
+*1156967979
+ieee	C:\MentorGraphics\PS2017.2_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2002	STD_LOGIC_1164	STD_LOGIC_1164	2	0
+ieee	C:\MentorGraphics\PS2017.2_64-bit\Mgc_home\pkgs\rtlc_psr\rtlc\IEEE_2002	STD_LOGIC_ARITH	STD_LOGIC_ARITH	2	0
+UART	C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_UART_GUI\ps\uart_top_struct\uart_top_struct_impl_1\rtlc_libs\UART	XMIT_RCV_CONTROL	XMIT_RCV_CONTROL	0	1411021273

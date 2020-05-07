@@ -1,0 +1,6 @@
+uart_top uart_top
+serial_interface serial_interface
+address_decode address_decode
+clock_divider clock_divider
+cpu_interface cpu_interface
+#LEGALIZEDMOD_COUNTER 0

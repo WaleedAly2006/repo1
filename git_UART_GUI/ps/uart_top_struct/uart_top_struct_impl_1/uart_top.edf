@@ -1,0 +1,473 @@
+(edif uart_top 
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status 
+  (written 
+   (timestamp 2020 05 07 11 44 34)
+   (program "Precision RTL Synthesis" (version "64-bit 2017.2.0.12"))
+   (author "Mentor Graphics Corporation")))
+ (external xazuplus 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell OBUF (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell IBUF (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT))))))
+ (library git_uart_gui 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell address_decode (cellType GENERIC)
+   (property RTLC_BLACK_BOX_CELL (string "TRUE"))
+   (view address_decode  (viewType NETLIST)
+    (interface 
+     (port (array (rename addr "addr(2:0)") 3 )(direction INPUT))
+     (port clk (direction INPUT))
+     (port rst (direction INPUT))
+     (port clk_div_en (direction OUTPUT))
+     (port clr_int_en (direction OUTPUT))
+     (port (array (rename ser_if_select "ser_if_select(1:0)") 2 )(direction OUTPUT))
+     (port xmitdt_en (direction OUTPUT)))
+    (property RTLC_DUMMY_VIEW (string "TRUE"))))
+  (cell clock_divider (cellType GENERIC)
+   (property RTLC_BLACK_BOX_CELL (string "TRUE"))
+   (view clock_divider  (viewType NETLIST)
+    (interface 
+     (port addr (direction INPUT))
+     (port clk (direction INPUT))
+     (port clk_div_en (direction INPUT))
+     (port (array (rename datin "datin(7:0)") 8 )(direction INPUT))
+     (port enable_rcv_clk (direction INPUT))
+     (port enable_write (direction INPUT))
+     (port enable_xmit_clk (direction INPUT))
+     (port rst (direction INPUT))
+     (port (array (rename div_data "div_data(7:0)") 8 )(direction OUTPUT))
+     (port sample (direction OUTPUT)))
+    (property RTLC_DUMMY_VIEW (string "TRUE"))))
+  (cell cpu_interface (cellType GENERIC)
+   (property RTLC_BLACK_BOX_CELL (string "TRUE"))
+   (view cpu_interface  (viewType NETLIST)
+    (interface 
+     (port clk (direction INPUT))
+     (port clk_div_en (direction INPUT))
+     (port clr_int_en (direction INPUT))
+     (port cs (direction INPUT))
+     (port (array (rename div_data "div_data(7:0)") 8 )(direction INPUT))
+     (port nrw (direction INPUT))
+     (port rst (direction INPUT))
+     (port (array (rename ser_if_data "ser_if_data(7:0)") 8 )(direction INPUT))
+     (port xmitdt_en (direction INPUT))
+     (port clear_flags (direction OUTPUT))
+     (port (array (rename datout "datout(7:0)") 8 )(direction OUTPUT))
+     (port enable_write (direction OUTPUT))
+     (port start_xmit (direction OUTPUT)))
+    (property RTLC_DUMMY_VIEW (string "TRUE"))))
+  (cell serial_interface (cellType GENERIC)
+   (property RTLC_BLACK_BOX_CELL (string "TRUE"))
+   (view serial_interface  (viewType NETLIST)
+    (interface 
+     (port clear_flags (direction INPUT))
+     (port clk (direction INPUT))
+     (port (array (rename datin "datin(7:0)") 8 )(direction INPUT))
+     (port enable_write (direction INPUT))
+     (port rst (direction INPUT))
+     (port sample (direction INPUT))
+     (port (array (rename ser_if_select "ser_if_select(1:0)") 2 )(direction INPUT))
+     (port sin (direction INPUT))
+     (port start_xmit (direction INPUT))
+     (port xmitdt_en (direction INPUT))
+     (port enable_rcv_clk (direction OUTPUT))
+     (port enable_xmit_clk (direction OUTPUT))
+     (port int (direction OUTPUT))
+     (port (array (rename ser_if_data "ser_if_data(7:0)") 8 )(direction OUTPUT))
+     (port sout (direction OUTPUT)))
+    (property RTLC_DUMMY_VIEW (string "TRUE"))))
+  (cell uart_top (cellType GENERIC)
+   (view struct  (viewType NETLIST)
+    (interface 
+     (port (array (rename addr "addr(2:0)") 3 )(direction INPUT))
+     (port clk (direction INPUT))
+     (port cs (direction INPUT))
+     (port (array (rename datin "datin(7:0)") 8 )(direction INPUT))
+     (port nrw (direction INPUT))
+     (port rst (direction INPUT))
+     (port sin (direction INPUT))
+     (port (array (rename datout "datout(7:0)") 8 )(direction OUTPUT))
+     (port int (direction OUTPUT))
+     (port sout (direction OUTPUT)))
+    (property AREA (string "0.000000"))
+    (property DESIGN_IS_RTL (string "NO"))
+    (property PART (string "xazu3eg-sfva625-1"))
+    (contents 
+     (instance U_3 (viewRef address_decode  (cellRef address_decode )))
+     (instance U_2 (viewRef clock_divider  (cellRef clock_divider )))
+     (instance U_1 (viewRef cpu_interface  (cellRef cpu_interface )))
+     (instance U_4 (viewRef serial_interface  (cellRef serial_interface )))
+     (instance sout_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance int_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_0_ "datout_obuf(0)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_1_ "datout_obuf(1)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_2_ "datout_obuf(2)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_3_ "datout_obuf(3)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_4_ "datout_obuf(4)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_5_ "datout_obuf(5)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_6_ "datout_obuf(6)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename datout_obuf_7_ "datout_obuf(7)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance sin_ibuf (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance rst_ibuf (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance nrw_ibuf (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_0_ "datin_ibuf(0)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_1_ "datin_ibuf(1)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_2_ "datin_ibuf(2)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_3_ "datin_ibuf(3)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_4_ "datin_ibuf(4)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_5_ "datin_ibuf(5)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_6_ "datin_ibuf(6)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename datin_ibuf_7_ "datin_ibuf(7)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance cs_ibuf (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance clk_ibuf (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_0_ "addr_ibuf(0)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_1_ "addr_ibuf(1)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_2_ "addr_ibuf(2)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (net (rename addr_2_ "addr(2)") 
+      (joined 
+       (portRef (member addr 0))
+       (portRef I (instanceRef addr_ibuf_2_ ))))
+     (net (rename addr_1_ "addr(1)") 
+      (joined 
+       (portRef (member addr 1))
+       (portRef I (instanceRef addr_ibuf_1_ ))))
+     (net (rename addr_0_ "addr(0)") 
+      (joined 
+       (portRef (member addr 2))
+       (portRef I (instanceRef addr_ibuf_0_ ))))
+     (net clk 
+      (joined 
+       (portRef clk )
+       (portRef I (instanceRef clk_ibuf ))))
+     (net cs 
+      (joined 
+       (portRef cs )
+       (portRef I (instanceRef cs_ibuf ))))
+     (net (rename datin_7_ "datin(7)") 
+      (joined 
+       (portRef (member datin 0))
+       (portRef I (instanceRef datin_ibuf_7_ ))))
+     (net (rename datin_6_ "datin(6)") 
+      (joined 
+       (portRef (member datin 1))
+       (portRef I (instanceRef datin_ibuf_6_ ))))
+     (net (rename datin_5_ "datin(5)") 
+      (joined 
+       (portRef (member datin 2))
+       (portRef I (instanceRef datin_ibuf_5_ ))))
+     (net (rename datin_4_ "datin(4)") 
+      (joined 
+       (portRef (member datin 3))
+       (portRef I (instanceRef datin_ibuf_4_ ))))
+     (net (rename datin_3_ "datin(3)") 
+      (joined 
+       (portRef (member datin 4))
+       (portRef I (instanceRef datin_ibuf_3_ ))))
+     (net (rename datin_2_ "datin(2)") 
+      (joined 
+       (portRef (member datin 5))
+       (portRef I (instanceRef datin_ibuf_2_ ))))
+     (net (rename datin_1_ "datin(1)") 
+      (joined 
+       (portRef (member datin 6))
+       (portRef I (instanceRef datin_ibuf_1_ ))))
+     (net (rename datin_0_ "datin(0)") 
+      (joined 
+       (portRef (member datin 7))
+       (portRef I (instanceRef datin_ibuf_0_ ))))
+     (net nrw 
+      (joined 
+       (portRef nrw )
+       (portRef I (instanceRef nrw_ibuf ))))
+     (net rst 
+      (joined 
+       (portRef rst )
+       (portRef I (instanceRef rst_ibuf ))))
+     (net sin 
+      (joined 
+       (portRef sin )
+       (portRef I (instanceRef sin_ibuf ))))
+     (net (rename datout_1_0_7_ "datout_1_0(7)") 
+      (joined 
+       (portRef (member datout 0)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_7_ ))))
+     (net (rename datout_1_0_6_ "datout_1_0(6)") 
+      (joined 
+       (portRef (member datout 1)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_6_ ))))
+     (net (rename datout_1_0_5_ "datout_1_0(5)") 
+      (joined 
+       (portRef (member datout 2)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_5_ ))))
+     (net (rename datout_1_0_4_ "datout_1_0(4)") 
+      (joined 
+       (portRef (member datout 3)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_4_ ))))
+     (net (rename datout_1_0_3_ "datout_1_0(3)") 
+      (joined 
+       (portRef (member datout 4)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_3_ ))))
+     (net (rename datout_1_0_2_ "datout_1_0(2)") 
+      (joined 
+       (portRef (member datout 5)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_2_ ))))
+     (net (rename datout_1_0_1_ "datout_1_0(1)") 
+      (joined 
+       (portRef (member datout 6)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_1_ ))))
+     (net (rename datout_1_0_0_ "datout_1_0(0)") 
+      (joined 
+       (portRef (member datout 7)(instanceRef U_1 ))
+       (portRef I (instanceRef datout_obuf_0_ ))))
+     (net int_1_0 
+      (joined 
+       (portRef int (instanceRef U_4 ))
+       (portRef I (instanceRef int_obuf ))))
+     (net sout_1_0 
+      (joined 
+       (portRef sout (instanceRef U_4 ))
+       (portRef I (instanceRef sout_obuf ))))
+     (net clear_flags 
+      (joined 
+       (portRef clear_flags (instanceRef U_1 ))
+       (portRef clear_flags (instanceRef U_4 ))))
+     (net clk_div_en 
+      (joined 
+       (portRef clk_div_en (instanceRef U_3 ))
+       (portRef clk_div_en (instanceRef U_1 ))
+       (portRef clk_div_en (instanceRef U_2 ))))
+     (net clr_int_en 
+      (joined 
+       (portRef clr_int_en (instanceRef U_3 ))
+       (portRef clr_int_en (instanceRef U_1 ))))
+     (net (rename div_data_7_ "div_data(7)") 
+      (joined 
+       (portRef (member div_data 0)(instanceRef U_2 ))
+       (portRef (member div_data 0)(instanceRef U_1 ))))
+     (net (rename div_data_6_ "div_data(6)") 
+      (joined 
+       (portRef (member div_data 1)(instanceRef U_2 ))
+       (portRef (member div_data 1)(instanceRef U_1 ))))
+     (net (rename div_data_5_ "div_data(5)") 
+      (joined 
+       (portRef (member div_data 2)(instanceRef U_2 ))
+       (portRef (member div_data 2)(instanceRef U_1 ))))
+     (net (rename div_data_4_ "div_data(4)") 
+      (joined 
+       (portRef (member div_data 3)(instanceRef U_2 ))
+       (portRef (member div_data 3)(instanceRef U_1 ))))
+     (net (rename div_data_3_ "div_data(3)") 
+      (joined 
+       (portRef (member div_data 4)(instanceRef U_2 ))
+       (portRef (member div_data 4)(instanceRef U_1 ))))
+     (net (rename div_data_2_ "div_data(2)") 
+      (joined 
+       (portRef (member div_data 5)(instanceRef U_2 ))
+       (portRef (member div_data 5)(instanceRef U_1 ))))
+     (net (rename div_data_1_ "div_data(1)") 
+      (joined 
+       (portRef (member div_data 6)(instanceRef U_2 ))
+       (portRef (member div_data 6)(instanceRef U_1 ))))
+     (net (rename div_data_0_ "div_data(0)") 
+      (joined 
+       (portRef (member div_data 7)(instanceRef U_2 ))
+       (portRef (member div_data 7)(instanceRef U_1 ))))
+     (net enable_rcv_clk 
+      (joined 
+       (portRef enable_rcv_clk (instanceRef U_4 ))
+       (portRef enable_rcv_clk (instanceRef U_2 ))))
+     (net enable_write 
+      (joined 
+       (portRef enable_write (instanceRef U_1 ))
+       (portRef enable_write (instanceRef U_2 ))
+       (portRef enable_write (instanceRef U_4 ))))
+     (net enable_xmit_clk 
+      (joined 
+       (portRef enable_xmit_clk (instanceRef U_4 ))
+       (portRef enable_xmit_clk (instanceRef U_2 ))))
+     (net sample 
+      (joined 
+       (portRef sample (instanceRef U_2 ))
+       (portRef sample (instanceRef U_4 ))))
+     (net (rename ser_if_data_7_ "ser_if_data(7)") 
+      (joined 
+       (portRef (member ser_if_data 0)(instanceRef U_4 ))
+       (portRef (member ser_if_data 0)(instanceRef U_1 ))))
+     (net (rename ser_if_data_6_ "ser_if_data(6)") 
+      (joined 
+       (portRef (member ser_if_data 1)(instanceRef U_4 ))
+       (portRef (member ser_if_data 1)(instanceRef U_1 ))))
+     (net (rename ser_if_data_5_ "ser_if_data(5)") 
+      (joined 
+       (portRef (member ser_if_data 2)(instanceRef U_4 ))
+       (portRef (member ser_if_data 2)(instanceRef U_1 ))))
+     (net (rename ser_if_data_4_ "ser_if_data(4)") 
+      (joined 
+       (portRef (member ser_if_data 3)(instanceRef U_4 ))
+       (portRef (member ser_if_data 3)(instanceRef U_1 ))))
+     (net (rename ser_if_data_3_ "ser_if_data(3)") 
+      (joined 
+       (portRef (member ser_if_data 4)(instanceRef U_4 ))
+       (portRef (member ser_if_data 4)(instanceRef U_1 ))))
+     (net (rename ser_if_data_2_ "ser_if_data(2)") 
+      (joined 
+       (portRef (member ser_if_data 5)(instanceRef U_4 ))
+       (portRef (member ser_if_data 5)(instanceRef U_1 ))))
+     (net (rename ser_if_data_1_ "ser_if_data(1)") 
+      (joined 
+       (portRef (member ser_if_data 6)(instanceRef U_4 ))
+       (portRef (member ser_if_data 6)(instanceRef U_1 ))))
+     (net (rename ser_if_data_0_ "ser_if_data(0)") 
+      (joined 
+       (portRef (member ser_if_data 7)(instanceRef U_4 ))
+       (portRef (member ser_if_data 7)(instanceRef U_1 ))))
+     (net (rename ser_if_select_1_ "ser_if_select(1)") 
+      (joined 
+       (portRef (member ser_if_select 0)(instanceRef U_3 ))
+       (portRef (member ser_if_select 0)(instanceRef U_4 ))))
+     (net (rename ser_if_select_0_ "ser_if_select(0)") 
+      (joined 
+       (portRef (member ser_if_select 1)(instanceRef U_3 ))
+       (portRef (member ser_if_select 1)(instanceRef U_4 ))))
+     (net start_xmit 
+      (joined 
+       (portRef start_xmit (instanceRef U_1 ))
+       (portRef start_xmit (instanceRef U_4 ))))
+     (net xmitdt_en 
+      (joined 
+       (portRef xmitdt_en (instanceRef U_3 ))
+       (portRef xmitdt_en (instanceRef U_1 ))
+       (portRef xmitdt_en (instanceRef U_4 ))))
+     (net (rename addr_int_2_ "addr_int(2)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_2_ ))
+       (portRef (member addr 0)(instanceRef U_3 ))))
+     (net (rename addr_int_1_ "addr_int(1)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_1_ ))
+       (portRef (member addr 1)(instanceRef U_3 ))))
+     (net (rename addr_int_0_ "addr_int(0)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_0_ ))
+       (portRef addr (instanceRef U_2 ))
+       (portRef (member addr 2)(instanceRef U_3 ))))
+     (net clk_int 
+      (joined 
+       (portRef O (instanceRef clk_ibuf ))
+       (portRef clk (instanceRef U_1 ))
+       (portRef clk (instanceRef U_2 ))
+       (portRef clk (instanceRef U_3 ))
+       (portRef clk (instanceRef U_4 ))))
+     (net cs_int 
+      (joined 
+       (portRef O (instanceRef cs_ibuf ))
+       (portRef cs (instanceRef U_1 ))))
+     (net (rename datin_int_7_ "datin_int(7)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_7_ ))
+       (portRef (member datin 0)(instanceRef U_2 ))
+       (portRef (member datin 0)(instanceRef U_4 ))))
+     (net (rename datin_int_6_ "datin_int(6)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_6_ ))
+       (portRef (member datin 1)(instanceRef U_2 ))
+       (portRef (member datin 1)(instanceRef U_4 ))))
+     (net (rename datin_int_5_ "datin_int(5)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_5_ ))
+       (portRef (member datin 2)(instanceRef U_2 ))
+       (portRef (member datin 2)(instanceRef U_4 ))))
+     (net (rename datin_int_4_ "datin_int(4)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_4_ ))
+       (portRef (member datin 3)(instanceRef U_2 ))
+       (portRef (member datin 3)(instanceRef U_4 ))))
+     (net (rename datin_int_3_ "datin_int(3)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_3_ ))
+       (portRef (member datin 4)(instanceRef U_2 ))
+       (portRef (member datin 4)(instanceRef U_4 ))))
+     (net (rename datin_int_2_ "datin_int(2)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_2_ ))
+       (portRef (member datin 5)(instanceRef U_2 ))
+       (portRef (member datin 5)(instanceRef U_4 ))))
+     (net (rename datin_int_1_ "datin_int(1)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_1_ ))
+       (portRef (member datin 6)(instanceRef U_2 ))
+       (portRef (member datin 6)(instanceRef U_4 ))))
+     (net (rename datin_int_0_ "datin_int(0)") 
+      (joined 
+       (portRef O (instanceRef datin_ibuf_0_ ))
+       (portRef (member datin 7)(instanceRef U_2 ))
+       (portRef (member datin 7)(instanceRef U_4 ))))
+     (net nrw_int 
+      (joined 
+       (portRef O (instanceRef nrw_ibuf ))
+       (portRef nrw (instanceRef U_1 ))))
+     (net rst_int 
+      (joined 
+       (portRef O (instanceRef rst_ibuf ))
+       (portRef rst (instanceRef U_1 ))
+       (portRef rst (instanceRef U_2 ))
+       (portRef rst (instanceRef U_3 ))
+       (portRef rst (instanceRef U_4 ))))
+     (net sin_int 
+      (joined 
+       (portRef O (instanceRef sin_ibuf ))
+       (portRef sin (instanceRef U_4 ))))
+     (net sout 
+      (joined 
+       (portRef sout )
+       (portRef O (instanceRef sout_obuf ))))
+     (net int 
+      (joined 
+       (portRef int )
+       (portRef O (instanceRef int_obuf ))))
+     (net (rename datout_0_ "datout(0)") 
+      (joined 
+       (portRef (member datout 7))
+       (portRef O (instanceRef datout_obuf_0_ ))))
+     (net (rename datout_1_ "datout(1)") 
+      (joined 
+       (portRef (member datout 6))
+       (portRef O (instanceRef datout_obuf_1_ ))))
+     (net (rename datout_2_ "datout(2)") 
+      (joined 
+       (portRef (member datout 5))
+       (portRef O (instanceRef datout_obuf_2_ ))))
+     (net (rename datout_3_ "datout(3)") 
+      (joined 
+       (portRef (member datout 4))
+       (portRef O (instanceRef datout_obuf_3_ ))))
+     (net (rename datout_4_ "datout(4)") 
+      (joined 
+       (portRef (member datout 3))
+       (portRef O (instanceRef datout_obuf_4_ ))))
+     (net (rename datout_5_ "datout(5)") 
+      (joined 
+       (portRef (member datout 2))
+       (portRef O (instanceRef datout_obuf_5_ ))))
+     (net (rename datout_6_ "datout(6)") 
+      (joined 
+       (portRef (member datout 1))
+       (portRef O (instanceRef datout_obuf_6_ ))))
+     (net (rename datout_7_ "datout(7)") 
+      (joined 
+       (portRef (member datout 0))
+       (portRef O (instanceRef datout_obuf_7_ ))))))))
+ (design uart_top (cellRef uart_top (libraryRef git_uart_gui ))
+  (property PART (string "xazu3eg-sfva625-1"))))

@@ -1,0 +1,68 @@
+# Info: [9569]: Logging project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/precision.log.suppressed
+# Info: [9552]: Activated implementation uart_top_struct_impl_1 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+new_impl -name uart_top_struct_impl_1
+# Info: [15300]: Setting up the design to use synthesis library "xazuplus.syn"
+# Info: [579]: The global max fanout is currently set to 10000 for Xilinx - Automotive Zynq Ultrascale+.
+# Info: [15326]: Setting Part to: "xazu3eg-sfva625".
+# Info: [15327]: Setting Process to: "1".
+# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
+# Info: [7512]: The place and route tool for current technology is Vivado.
+# Info: [7512]: The place and route tool for current technology is Vivado.
+# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/techlibs/xazuplus.syn.
+# Info: [638]: Loading library initialization file C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
+# Info: XILINX
+# Info: [40000]: vhdlorder, Release 2017b.6
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2017b.6
+# Info: [42502]: Analyzing input file "C:/Xilinx/Vivado/2018.1/data/vhdl/src/unisims/unisim_retarget_VCOMP.vhd" ...
+# Info: [42502]: Analyzing input file "C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_VCOMP.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/control_operation_fsm.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/cpu_interface_intconx.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/clock_divider_flow.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/address_decode_tbl.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/xmit_rcv_control_fsm.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/status_registers_spec.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/serial_interface_struct.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd" ...
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2017b.6
+# Info: [40000]: Last compiled on Dec 15 2017 14:04:04
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2017b.6
+# Info: [40000]: Last compiled on Dec 15 2017 14:16:29
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module git_UART_GUI.uart_top(struct): Pre-processing...
+# Info: [44523]: Root Module git_UART_GUI.uart_top(struct): Compiling...
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 169.
+# Info: [44835]: Total CPU time for compilation: 0.5 secs.
+# Info: [44513]: Overall running time for compilation: 2.0 secs.
+# Warning: [4560]: Found black-box: git_uart_gui.serial_interface; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 111:.
+# Warning: [4560]: Found black-box: git_uart_gui.cpu_interface; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 94:.
+# Warning: [4560]: Found black-box: git_uart_gui.clock_divider; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 80:.
+# Warning: [4560]: Found black-box: git_uart_gui.address_decode; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 69:.
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [15332]: Doing rtl optimizations.
+# Info: [664]: Finished compiling design.
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [15002]: Optimizing design view:.git_uart_gui.uart_top.struct
+# Info: [15002]: Optimizing design view:.git_uart_gui.uart_top.struct
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.edf.
+# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.xdc.
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.vhd.
+# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.v.
+# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
+# Info: [664]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.3 s secs.
+# Info: [11020]: Overall running time for synthesis: 0.5 s secs.
+# Info: HDL Designer Synthesis run finished
+source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
+# COMMAND: save_project
+# Info: [9565]: Saved implementation uart_top_struct_impl_1 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+save_project
+# COMMAND: close_project -discard

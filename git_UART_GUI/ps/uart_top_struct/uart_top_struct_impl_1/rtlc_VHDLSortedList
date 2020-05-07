@@ -1,0 +1,8 @@
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/control_operation_fsm.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/cpu_interface_intconx.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/clock_divider_flow.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/address_decode_tbl.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/xmit_rcv_control_fsm.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/status_registers_spec.vhd" -2002 
+UART "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/serial_interface_struct.vhd" -2002 
+git_UART_GUI "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd" -2002 
