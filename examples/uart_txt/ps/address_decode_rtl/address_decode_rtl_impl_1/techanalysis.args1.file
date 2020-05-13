@@ -1,0 +1,12 @@
+10:-pipe_flow
+6:-quiet
+8:-out_dir
+146:C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/UART_TXT/ps/address_decode_rtl/address_decode_rtl_impl_1//rtlc.out
+4:-vhf
+165:C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/UART_TXT/ps/address_decode_rtl/address_decode_rtl_impl_1//hdlAnalyze_techcellvhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+146:C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/UART_TXT/ps/address_decode_rtl/address_decode_rtl_impl_1//.jaguarc
+7:-sv2009
+211:+incdir+C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart_txt/hdl+C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/UART_TXT/ps/address_decode_rtl
+17:+define+synthesis

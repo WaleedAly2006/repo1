@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_txethmac_stim
+DEFAULT_FILE atom bench/verilog/stimuli/eth_txethmac_stim.v

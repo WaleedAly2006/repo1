@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_crc
+DEFAULT_FILE atom data/rtl/verilog/eth_crc.v

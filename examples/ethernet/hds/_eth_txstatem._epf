@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_txstatem
+DEFAULT_FILE atom data/rtl/verilog/eth_txstatem.v

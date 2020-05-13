@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom WB_MASTER32
+DEFAULT_FILE atom bench/verilog/tb_eth_behcomp.v

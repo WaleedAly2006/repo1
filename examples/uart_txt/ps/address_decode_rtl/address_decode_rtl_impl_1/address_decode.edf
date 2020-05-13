@@ -1,0 +1,146 @@
+(edif address_decode 
+ (edifVersion 2 0 0)
+ (edifLevel 0)
+ (keywordMap (keywordLevel 0))
+ (status 
+  (written 
+   (timestamp 2020 05 06 12 04 32)
+   (program "Precision RTL Synthesis" (version "64-bit 2017.2.0.12"))
+   (author "Mentor Graphics Corporation")))
+ (external xazuplus 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell OBUF (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell IBUF (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell LUT2 (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port O (direction OUTPUT)))))
+  (cell LUT3 (cellType GENERIC)
+   (view NETLIST  (viewType NETLIST)
+    (interface 
+     (port I0 (direction INPUT))
+     (port I1 (direction INPUT))
+     (port I2 (direction INPUT))
+     (port O (direction OUTPUT))))))
+ (library uart_txt 
+  (edifLevel 0)
+  (technology (numberDefinition ))
+  (cell address_decode (cellType GENERIC)
+   (view rtl  (viewType NETLIST)
+    (interface 
+     (port (array (rename addr "addr(2:0)") 3 )(direction INPUT))
+     (port clk_div_en (direction OUTPUT))
+     (port clr_int_en (direction OUTPUT))
+     (port (array (rename ser_if_select "ser_if_select(1:0)") 2 )(direction OUTPUT))
+     (port xmitdt_en (direction OUTPUT)))
+    (property DESIGN_IS_RTL (string "NO"))
+    (property PART (string "xazu3eg-sfva625-1"))
+    (contents 
+     (instance xmitdt_en_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename ser_if_select_obuf_0_ "ser_if_select_obuf(0)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename ser_if_select_obuf_1_ "ser_if_select_obuf(1)") (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance clr_int_en_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance clk_div_en_obuf (viewRef NETLIST  (cellRef OBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_0_ "addr_ibuf(0)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_1_ "addr_ibuf(1)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance (rename addr_ibuf_2_ "addr_ibuf(2)") (viewRef NETLIST  (cellRef IBUF (libraryRef xazuplus ))))
+     (instance ix25060z1327 (viewRef NETLIST  (cellRef LUT2 (libraryRef xazuplus )))
+      (property HLUTNM (string "LUT62_1_2"))
+      (property INIT (string "D")))
+     (instance ix26057z1327 (viewRef NETLIST  (cellRef LUT2 (libraryRef xazuplus )))
+      (property HLUTNM (string "LUT62_1_2"))
+      (property INIT (string "D")))
+     (instance ix36037z1315 (viewRef NETLIST  (cellRef LUT2 (libraryRef xazuplus )))
+      (property INIT (string "1")))
+     (instance ix21424z1442 (viewRef NETLIST  (cellRef LUT3 (libraryRef xazuplus )))
+      (property HLUTNM (string "LUT62_1_1"))
+      (property INIT (string "80")))
+     (instance ix24671z1316 (viewRef NETLIST  (cellRef LUT3 (libraryRef xazuplus )))
+      (property HLUTNM (string "LUT62_1_1"))
+      (property INIT (string "02")))
+     (net (rename addr_2_ "addr(2)") 
+      (joined 
+       (portRef (member addr 0))
+       (portRef I (instanceRef addr_ibuf_2_ ))))
+     (net (rename addr_1_ "addr(1)") 
+      (joined 
+       (portRef (member addr 1))
+       (portRef I (instanceRef addr_ibuf_1_ ))))
+     (net (rename addr_0_ "addr(0)") 
+      (joined 
+       (portRef (member addr 2))
+       (portRef I (instanceRef addr_ibuf_0_ ))))
+     (net (rename addr_int_2_ "addr_int(2)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_2_ ))
+       (portRef I0 (instanceRef ix25060z1327 ))
+       (portRef I0 (instanceRef ix26057z1327 ))
+       (portRef I0 (instanceRef ix36037z1315 ))
+       (portRef I0 (instanceRef ix21424z1442 ))
+       (portRef I0 (instanceRef ix24671z1316 ))))
+     (net (rename addr_int_1_ "addr_int(1)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_1_ ))
+       (portRef I1 (instanceRef ix21424z1442 ))
+       (portRef I1 (instanceRef ix24671z1316 ))
+       (portRef I1 (instanceRef ix25060z1327 ))
+       (portRef I1 (instanceRef ix36037z1315 ))))
+     (net (rename addr_int_0_ "addr_int(0)") 
+      (joined 
+       (portRef O (instanceRef addr_ibuf_0_ ))
+       (portRef I1 (instanceRef ix26057z1327 ))
+       (portRef I2 (instanceRef ix21424z1442 ))
+       (portRef I2 (instanceRef ix24671z1316 ))))
+     (net xmitdt_en 
+      (joined 
+       (portRef xmitdt_en )
+       (portRef O (instanceRef xmitdt_en_obuf ))))
+     (net (rename ser_if_select_0_ "ser_if_select(0)") 
+      (joined 
+       (portRef (member ser_if_select 1))
+       (portRef O (instanceRef ser_if_select_obuf_0_ ))))
+     (net (rename ser_if_select_1_ "ser_if_select(1)") 
+      (joined 
+       (portRef (member ser_if_select 0))
+       (portRef O (instanceRef ser_if_select_obuf_1_ ))))
+     (net clr_int_en 
+      (joined 
+       (portRef clr_int_en )
+       (portRef O (instanceRef clr_int_en_obuf ))))
+     (net clk_div_en 
+      (joined 
+       (portRef clk_div_en )
+       (portRef O (instanceRef clk_div_en_obuf ))))
+     (net nx25060z1 
+      (joined 
+       (portRef O (instanceRef ix25060z1327 ))
+       (portRef I (instanceRef ser_if_select_obuf_1_ ))))
+     (net nx26057z1 
+      (joined 
+       (portRef O (instanceRef ix26057z1327 ))
+       (portRef I (instanceRef ser_if_select_obuf_0_ ))))
+     (net nx36037z1 
+      (joined 
+       (portRef O (instanceRef ix36037z1315 ))
+       (portRef I (instanceRef clk_div_en_obuf ))))
+     (net nx21424z1 
+      (joined 
+       (portRef O (instanceRef ix21424z1442 ))
+       (portRef I (instanceRef clr_int_en_obuf ))))
+     (net nx24671z1 
+      (joined 
+       (portRef O (instanceRef ix24671z1316 ))
+       (portRef I (instanceRef xmitdt_en_obuf ))))))))
+ (design address_decode (cellRef address_decode (libraryRef uart_txt ))
+  (property PART (string "xazu3eg-sfva625-1"))))
