@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom rtl
+DEFAULT_FILE atom data/rtl/vhdl/eth_rxstatem_a_rtl.vhd

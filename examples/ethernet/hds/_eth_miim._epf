@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_miim
+DEFAULT_FILE atom data/rtl/verilog/eth_miim.v

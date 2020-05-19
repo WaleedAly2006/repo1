@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_txcounters
+DEFAULT_FILE atom data/rtl/verilog/eth_txcounters.v

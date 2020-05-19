@@ -1,0 +1,82 @@
+[DC]
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/dc
+[DesignChecker]
+git_uart_txt = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\designcheck
+[Leonardo]
+Ethernet = $HDS_PROJECT_DIR/ethernet/ls_work
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/ls_work
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/ls_work
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/ls_work
+TIMER_Vhdl = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/ls_work
+TIMER_Vlog = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/ls_work
+UART = $HDS_PROJECT_DIR/uart/ls_work
+UART_TXT = $HDS_PROJECT_DIR/uart_txt/ls_work
+UART_V = $HDS_PROJECT_DIR/uart_v/ls_work
+UART_V2K = $HDS_PROJECT_DIR/uart_v2k/ls_work
+[ModelSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/work
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/work
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/work
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/work
+TIMER_Vhdl = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/work
+TIMER_Vlog = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/work
+UART = $HDS_PROJECT_DIR/uart/work
+UART_TXT = $HDS_PROJECT_DIR/uart_txt/work
+UART_V = $HDS_PROJECT_DIR/uart_v/work
+UART_V2K = $HDS_PROJECT_DIR/uart_v2k/work
+[Precision]
+git_UART_GUI = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_UART_GUI\ps
+git_uart_txt = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\ps
+UART_TXT = $HDS_PROJECT_DIR\UART_TXT\ps
+[QuestaSim]
+Ethernet = $HDS_PROJECT_DIR/ethernet/work
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/work
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/work
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/work
+TIMER_Vhdl = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/work
+TIMER_Vlog = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/work
+UART = $HDS_PROJECT_DIR/uart/work
+UART_TXT = $HDS_PROJECT_DIR/uart_txt/work
+UART_V = $HDS_PROJECT_DIR/uart_v/work
+UART_V2K = $HDS_PROJECT_DIR/uart_v2k/work
+[hdl]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hdl
+git_UART_GUI = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_UART_GUI\hdl
+git_uart_txt = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hdl
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/hdl
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hdl
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hdl
+TIMER_Vhdl = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hdl
+TIMER_Vlog = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hdl
+UART = $HDS_PROJECT_DIR/uart/hdl
+UART_TXT = $HDS_PROJECT_DIR/uart_txt/hdl
+UART_V = $HDS_PROJECT_DIR/uart_v/hdl
+UART_V2K = $HDS_PROJECT_DIR/uart_v2k/hdl
+[hds]
+Ethernet = $HDS_PROJECT_DIR/ethernet/hds
+git_UART_GUI = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_UART_GUI\hds
+git_uart_txt = C:\d_drive\Work\HDS_work\Projects\GIT\GIT_workspaces\repo3_from_hds\cloned_files\repo1\git_uart_txt\hds
+SCRATCH_LIB = $HDS_PROJECT_DIR/hds_scratch/scratch_lib/hds
+Sequencer_vhd = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vhd/hds
+Sequencer_vlg = $HDS_PROJECT_DIR/tutorial_ref/Sequencer_vlg/hds
+TIMER_Vhdl = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vhdl/hds
+TIMER_Vlog = $HDS_PROJECT_DIR/tutorial_ref/TIMER_Vlog/hds
+UART = $HDS_PROJECT_DIR/uart/hds
+UART_TXT = $HDS_PROJECT_DIR/uart_txt/hds
+UART_V = $HDS_PROJECT_DIR/uart_v/hds
+UART_V2K = $HDS_PROJECT_DIR/uart_v2k/hds
+[hds_settings]
+default_library = SCRATCH_LIB
+library_search_path = mtiAvm
+project_description = The HDS examples project
+version = 2
+[includes_search_path]
+Ethernet = $Ethernet/data/rtl/verilog
+[library_files_inclusion]
+git_UART_GUI = all
+git_uart_txt = all
+[library_type]
+git_UART_GUI = regular
+git_uart_txt = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

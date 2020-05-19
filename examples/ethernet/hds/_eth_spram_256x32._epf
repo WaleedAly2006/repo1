@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_spram_256x32
+DEFAULT_FILE atom data/rtl/verilog/eth_spram_256x32.v

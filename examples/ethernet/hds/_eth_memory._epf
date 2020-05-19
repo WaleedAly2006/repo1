@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_memory
+DEFAULT_FILE atom bench/verilog/tb_eth_behcomp.v

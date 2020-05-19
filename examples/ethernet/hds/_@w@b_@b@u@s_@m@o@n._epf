@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom WB_BUS_MON
+DEFAULT_FILE atom bench/verilog/tb_eth_behcomp.v

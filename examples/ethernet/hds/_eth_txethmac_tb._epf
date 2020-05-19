@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom eth_txethmac_tb
+DEFAULT_FILE atom data/bench/verilog/eth_txethmac_tb.v
