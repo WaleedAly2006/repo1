@@ -6,6 +6,8 @@
 --
 -- Mentor Graphics' HDL Designer(TM)
 --
+
+-- new mod in branch new_branch
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
@@ -17,7 +19,7 @@ ENTITY status_registers IS
       done_rcving   : IN     std_logic;
       done_xmitting : IN     std_logic;
       rcving        : IN     std_logic;
-      rst           : IN     std_logic;                      -- reset(0)
+      rst           : IN     std_logic;                      -- reset(1)
       xmitting      : IN     std_logic;
       int           : OUT    std_logic;                      -- interrupt (1)
       status        : OUT    std_logic_vector (7 DOWNTO 0)
@@ -44,7 +46,7 @@ BEGIN
          done_rcving_reg <= '0';
          
       ELSIF (clk'event AND clk = '1') THEN
-         IF (clear_flags = '1') THEN
+         IF (clear_flags = '0') THEN
             -- Clear Status Flags
             xmitting_reg <= '0';
             done_xmitting_reg <= '0';

@@ -34,7 +34,7 @@ libraryRefs [
 ]
 )
 version "27.1"
-appVersion "2004.1"
+appVersion "2020.2 Built on 9 Jun 2020 at 21:00:15"
 model (StateMachine
 VExpander (VariableExpander
 vvMap [
@@ -44,23 +44,23 @@ value " "
 )
 (vvPair
 variable "HDLDir"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hdl"
 )
 (vvPair
 variable "HDSDir"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds"
 )
 (vvPair
 variable "SideDataDesignDir"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control\\fsm.sm.info"
 )
 (vvPair
 variable "SideDataUserDir"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control\\fsm.sm.user"
 )
 (vvPair
 variable "SourceDir"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds"
 )
 (vvPair
 variable "appl"
@@ -76,27 +76,27 @@ value "%(unit)_%(view)_config"
 )
 (vvPair
 variable "d"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control"
 )
 (vvPair
 variable "d_logical"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control"
 )
 (vvPair
 variable "date"
-value "10/03/2019"
+value "06/16/2020"
 )
 (vvPair
 variable "day"
-value "Sun"
+value "Tue"
 )
 (vvPair
 variable "day_long"
-value "Sunday"
+value "Tuesday"
 )
 (vvPair
 variable "dd"
-value "10"
+value "16"
 )
 (vvPair
 variable "entity_name"
@@ -120,19 +120,23 @@ value "fsm"
 )
 (vvPair
 variable "graphical_source_author"
-value "JSmith"
+value "waly"
 )
 (vvPair
 variable "graphical_source_date"
-value "10/03/2019"
+value "06/16/2020"
 )
 (vvPair
 variable "graphical_source_group"
 value "UNKNOWN"
 )
 (vvPair
+variable "graphical_source_host"
+value "EGC-WALY-LT"
+)
+(vvPair
 variable "graphical_source_time"
-value "11:25:12"
+value "15:37:41"
 )
 (vvPair
 variable "group"
@@ -140,7 +144,7 @@ value "UNKNOWN"
 )
 (vvPair
 variable "host"
-value "JSmith"
+value "EGC-WALY-LT"
 )
 (vvPair
 variable "language"
@@ -148,7 +152,7 @@ value "VHDL"
 )
 (vvPair
 variable "library"
-value "uart"
+value "git_UART_GUI"
 )
 (vvPair
 variable "library_downstream_Generic_1_file"
@@ -192,7 +196,7 @@ value "<TBD>"
 )
 (vvPair
 variable "mm"
-value "03"
+value "06"
 )
 (vvPair
 variable "module_name"
@@ -200,19 +204,19 @@ value "xmit_rcv_control"
 )
 (vvPair
 variable "month"
-value "Mar"
+value "Jun"
 )
 (vvPair
 variable "month_long"
-value "March"
+value "June"
 )
 (vvPair
 variable "p"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control\\fsm.sm"
 )
 (vvPair
 variable "p_logical"
-value "<TBD>"
+value "C:\\d_drive\\Work\\HDS_work\\Projects\\GIT\\GIT_workspaces\\github_project\\hds_github_project\\repo1\\git_UART_GUI\\hds\\xmit_rcv_control\\fsm.sm"
 )
 (vvPair
 variable "package_name"
@@ -220,7 +224,7 @@ value "<Undefined Variable>"
 )
 (vvPair
 variable "project_name"
-value "hds"
+value "hds_github_project"
 )
 (vvPair
 variable "series"
@@ -256,11 +260,11 @@ value "<TBD>"
 )
 (vvPair
 variable "task_PrecisionRTLPath"
-value "<TBD>"
+value "C:\\MentorGraphics\\PS2017.2_64-bit\\Mgc_home\\bin"
 )
 (vvPair
 variable "task_QuestaSimPath"
-value "<TBD>"
+value "C:\\MentorGraphics\\Questa_2020.1\\win64"
 )
 (vvPair
 variable "task_VCSPath"
@@ -280,7 +284,7 @@ value "fsm"
 )
 (vvPair
 variable "time"
-value "11:25:12"
+value "15:37:41"
 )
 (vvPair
 variable "unit"
@@ -288,11 +292,11 @@ value "xmit_rcv_control"
 )
 (vvPair
 variable "user"
-value "JSmith"
+value "waly"
 )
 (vvPair
 variable "version"
-value "2004.1"
+value "2020.2 Built on 9 Jun 2020 at 21:00:15"
 )
 (vvPair
 variable "view"
@@ -300,11 +304,11 @@ value "fsm"
 )
 (vvPair
 variable "year"
-value "2019"
+value "2020"
 )
 (vvPair
 variable "yy"
-value "19"
+value "20"
 )
 ]
 )
@@ -449,7 +453,7 @@ uid 1087,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-2600,10500,7000,11500"
+xt "-2600,10500,7100,11500"
 st "rcv_bit_cnt_cld <= \"000\";"
 tm "Actions"
 )
@@ -610,7 +614,7 @@ uid 1096,0
 va (VaSet
 font "arial,8,0"
 )
-xt "38950,10500,47450,11500"
+xt "38950,10500,47650,11500"
 st "enable_rcv_clk <= '1';"
 tm "Actions"
 )
@@ -771,7 +775,7 @@ uid 1105,0
 va (VaSet
 font "arial,8,0"
 )
-xt "52950,23000,61450,25000"
+xt "52950,23000,61650,25000"
 st "rcving <= '1';
 enable_rcv_clk <= '1';"
 tm "Actions"
@@ -933,7 +937,7 @@ uid 1114,0
 va (VaSet
 font "arial,8,0"
 )
-xt "53950,37000,62450,39000"
+xt "53950,37000,62650,39000"
 st "rcving <= '1';
 enable_rcv_clk <= '1';"
 tm "Actions"
@@ -1095,7 +1099,7 @@ uid 1123,0
 va (VaSet
 font "arial,8,0"
 )
-xt "41876,48891,50376,50891"
+xt "41876,48891,50576,50891"
 st "rcving <= '1';
 enable_rcv_clk <= '1';"
 tm "Actions"
@@ -1257,7 +1261,7 @@ uid 1132,0
 va (VaSet
 font "arial,8,0"
 )
-xt "7488,50149,15988,52149"
+xt "7488,50149,16188,52149"
 st "rcving <= '1';
 enable_rcv_clk <= '1';"
 tm "Actions"
@@ -1419,7 +1423,7 @@ uid 1141,0
 va (VaSet
 font "arial,8,0"
 )
-xt "5770,34640,14270,36640"
+xt "5770,34640,14470,36640"
 st "rcving <= '1';
 enable_rcv_clk <= '1';"
 tm "Actions"
@@ -1581,7 +1585,7 @@ uid 1150,0
 va (VaSet
 font "arial,8,0"
 )
-xt "3950,23500,12450,26500"
+xt "3950,23500,12650,26500"
 st "enable_rcv_clk <= '0';
 rcving <= '0';
 done_rcving <= '1';"
@@ -1632,7 +1636,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "117200,46400,135800,47400"
+xt "117200,46400,135700,47400"
 st "
 Control the receiving sequence of serial input data.
 "
@@ -1691,7 +1695,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "100200,47500,107800,48500"
+xt "100200,47500,107900,48500"
 st "
 RCV receive control
 "
@@ -1811,7 +1815,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "100200,48700,109700,49700"
+xt "100200,48700,114000,49700"
 st "
 %library/%unit/%view
 "
@@ -1841,7 +1845,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "100200,49900,109800,50900"
+xt "100200,49900,110200,50900"
 st "
 by %user on %dd %month %year
 "
@@ -1901,7 +1905,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "121200,45100,125600,46100"
+xt "121200,45100,122800,46100"
 st "
 %project_name
 "
@@ -2006,7 +2010,7 @@ uid 896,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-2775,7500,6825,8500"
+xt "-2775,7500,7025,8500"
 st "clk'EVENT AND clk = '1'"
 tm "SmControlConditionMgr"
 )
@@ -2154,7 +2158,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "-4875,14000,625,15000"
+xt "-4875,14000,725,15000"
 st "< Automatic >"
 tm "Actions"
 )
@@ -2265,7 +2269,7 @@ uid 82,0
 va (VaSet
 font "arial,8,0"
 )
-xt "17000,7542,26600,9542"
+xt "17000,7542,26700,9542"
 st "enable_rcv_clk <= '1';
 rcv_bit_cnt_cld <= \"000\";"
 tm "Actions"
@@ -2358,7 +2362,7 @@ uid 92,0
 va (VaSet
 font "arial,8,0"
 )
-xt "18506,18307,27006,19307"
+xt "18506,18307,27206,19307"
 st "enable_rcv_clk <= '0';"
 tm "Actions"
 )
@@ -2528,7 +2532,7 @@ uid 111,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48565,26644,53065,27644"
+xt "48565,26644,53165,27644"
 st "sample='1'"
 tm "Condition"
 )
@@ -2620,7 +2624,7 @@ uid 121,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48750,43500,53250,44500"
+xt "48750,43500,53350,44500"
 st "sample='0'"
 tm "Condition"
 )
@@ -2711,7 +2715,7 @@ uid 131,0
 va (VaSet
 font "arial,8,0"
 )
-xt "26550,34300,41450,35300"
+xt "26550,34300,41650,35300"
 st "sample='1' AND rcv_bit_cnt_cld /= \"111\""
 tm "Condition"
 )
@@ -2720,7 +2724,7 @@ uid 132,0
 va (VaSet
 font "arial,8,0"
 )
-xt "24900,35700,43100,37700"
+xt "24900,35700,43200,37700"
 st "read_bit <= '1';
 rcv_bit_cnt_cld <= unsigned(rcv_bit_cnt_cld) + 1;"
 tm "Actions"
@@ -2801,7 +2805,7 @@ uid 141,0
 va (VaSet
 font "arial,8,0"
 )
-xt "11971,45846,26671,46846"
+xt "11971,45846,26871,46846"
 st "sample='1' AND rcv_bit_cnt_cld = \"111\""
 tm "Condition"
 )
@@ -2891,7 +2895,7 @@ uid 151,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-128,40264,4372,41264"
+xt "-128,40264,4472,41264"
 st "sample='0'"
 tm "Condition"
 )
@@ -2982,7 +2986,7 @@ uid 161,0
 va (VaSet
 font "arial,8,0"
 )
-xt "-2322,25901,2178,26901"
+xt "-2322,25901,2278,26901"
 st "sample='1'"
 tm "Condition"
 )
@@ -3171,7 +3175,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "1128,14809,6628,15809"
+xt "1128,14809,6728,15809"
 st "< Automatic >"
 tm "Actions"
 )
@@ -3322,7 +3326,7 @@ uid 604,0
 va (VaSet
 font "arial,8,0"
 )
-xt "67222,8364,78122,11364"
+xt "67222,8364,78022,11364"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;"
@@ -3401,8 +3405,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "72,45,1102,813"
-viewArea "-8000,1600,70667,69597"
+windowSize "72,45,1103,813"
+viewArea "-8000,1600,73939,64253"
 cachedDiagramExtent "-6925,-5186,137000,52249"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -3439,7 +3443,7 @@ va (VaSet
 fg "0,0,32768"
 font "arial,8,0"
 )
-xt "200,200,2000,1200"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -3518,7 +3522,7 @@ uid 8,0
 va (VaSet
 font "arial,8,0"
 )
-xt "67000,14000,88800,15000"
+xt "67000,14000,89100,15000"
 st "SIGNAL xmit_bit_cnt : std_logic_vector(2 downto 0) := \"000\";"
 tm "LocalDeclTextMgr"
 )
@@ -3964,7 +3968,7 @@ uid 1159,0
 va (VaSet
 font "arial,8,0"
 )
-xt "47009,24595,55509,25595"
+xt "47009,24595,55709,25595"
 st "xmit_bit_cnt <= \"000\";"
 tm "Actions"
 )
@@ -4055,7 +4059,7 @@ lineColor "39936,56832,65280"
 lineWidth -1
 fillStyle 1
 )
-xt "68777,24259,79177,27459"
+xt "68627,24259,79327,27459"
 )
 autoResize 1
 tline (Line
@@ -4066,10 +4070,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "68877,24159,79077,24159"
+xt "68727,24159,79227,24159"
 pts [
-"68877,24159"
-"79077,24159"
+"68727,24159"
+"79227,24159"
 ]
 )
 bline (Line
@@ -4080,10 +4084,10 @@ isHidden 1
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "68877,13954,79077,13954"
+xt "68727,13954,79227,13954"
 pts [
-"68877,13954"
-"79077,13954"
+"68727,13954"
+"79227,13954"
 ]
 )
 ttri (Triangle
@@ -4097,7 +4101,7 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "68427,23784,68777,24134"
+xt "68277,23784,68627,24134"
 )
 btri (Triangle
 uid 1166,0
@@ -4110,14 +4114,14 @@ bg "0,0,0"
 lineColor "39936,56832,65280"
 lineWidth -1
 )
-xt "68427,375,68777,725"
+xt "68277,375,68627,725"
 )
 entryActions (MLText
 uid 1167,0
 va (VaSet
 font "arial,8,0"
 )
-xt "68877,23959,68877,23959"
+xt "68727,23959,68727,23959"
 tm "Actions"
 )
 inActions (MLText
@@ -4125,8 +4129,8 @@ uid 1168,0
 va (VaSet
 font "arial,8,0"
 )
-xt "68877,24359,79077,27359"
-st "sout_cld <= '0';
+xt "68727,24359,79227,27359"
+st "sout_cld <= '1';
 enable_xmit_clk_cld <= '1';
 xmitting_cld <= '1';"
 tm "Actions"
@@ -4288,7 +4292,7 @@ uid 1177,0
 va (VaSet
 font "arial,8,0"
 )
-xt "57492,42923,80392,43923"
+xt "57492,42923,80692,43923"
 st "sout_cld <= xmitdt(CONV_INTEGER(unsigned(xmit_bit_cnt)));"
 tm "Actions"
 )
@@ -4449,7 +4453,7 @@ uid 1186,0
 va (VaSet
 font "arial,8,0"
 )
-xt "48105,59736,71005,60736"
+xt "48105,59736,71305,60736"
 st "sout_cld <= xmitdt(CONV_INTEGER(unsigned(xmit_bit_cnt)));"
 tm "Actions"
 )
@@ -4764,7 +4768,7 @@ uid 1204,0
 va (VaSet
 font "arial,8,0"
 )
-xt "21940,40165,30140,41165"
+xt "21940,40165,30240,41165"
 st "done_xmitting <= '1';"
 tm "Actions"
 )
@@ -4925,7 +4929,7 @@ uid 1213,0
 va (VaSet
 font "arial,8,0"
 )
-xt "27927,26673,38127,28673"
+xt "27927,26673,38427,28673"
 st "enable_xmit_clk_cld <= '0';
 xmitting_cld <= '0';"
 tm "Actions"
@@ -5005,7 +5009,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "118200,56500,126700,57500"
+xt "118200,56500,126800,57500"
 st "
 XMIT transmit control
 "
@@ -5065,7 +5069,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "118200,57700,127700,58700"
+xt "118200,57700,128100,58700"
 st "
 %library/%unit/%view
 "
@@ -5185,7 +5189,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "139200,54100,143600,55100"
+xt "139200,54100,140800,55100"
 st "
 %project_name
 "
@@ -5215,7 +5219,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "135200,55400,148800,57400"
+xt "135200,55400,148700,57400"
 st "
 Control the transmitting sequence of 
 serial output data.
@@ -5245,7 +5249,7 @@ va (VaSet
 fg "0,0,32768"
 bg "0,0,32768"
 )
-xt "118200,58900,127800,59900"
+xt "118200,58900,128200,59900"
 st "
 by %user on %dd %month %year
 "
@@ -5350,7 +5354,7 @@ uid 960,0
 va (VaSet
 font "arial,8,0"
 )
-xt "16225,15500,25825,16500"
+xt "16225,15500,26025,16500"
 st "clk'EVENT AND clk = '1'"
 tm "SmControlConditionMgr"
 )
@@ -5498,7 +5502,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "31125,15000,36625,16000"
+xt "31125,15000,36725,16000"
 st "< Automatic >"
 tm "Actions"
 )
@@ -5690,7 +5694,7 @@ uid 288,0
 va (VaSet
 font "arial,8,0"
 )
-xt "63570,30234,68070,31234"
+xt "63570,30234,68170,31234"
 st "sample='1'"
 tm "Condition"
 )
@@ -5781,7 +5785,7 @@ uid 298,0
 va (VaSet
 font "arial,8,0"
 )
-xt "65077,51312,69577,52312"
+xt "65077,51312,69677,52312"
 st "sample='0'"
 tm "Condition"
 )
@@ -5790,7 +5794,7 @@ uid 299,0
 va (VaSet
 font "arial,8,0"
 )
-xt "59327,52712,75327,53712"
+xt "59327,52712,75627,53712"
 st "xmit_bit_cnt <= unsigned(xmit_bit_cnt) + 1;"
 tm "Actions"
 )
@@ -5874,7 +5878,7 @@ uid 308,0
 va (VaSet
 font "arial,8,0"
 )
-xt "39806,44648,53606,45648"
+xt "39806,44648,53906,45648"
 st "sample='1' AND xmit_bit_cnt /= \"000\""
 tm "Condition"
 )
@@ -6053,7 +6057,7 @@ uid 328,0
 va (VaSet
 font "arial,8,0"
 )
-xt "17891,41983,22391,42983"
+xt "17891,41983,22491,42983"
 st "sample='0'"
 tm "Condition"
 )
@@ -6144,7 +6148,7 @@ uid 338,0
 va (VaSet
 font "arial,8,0"
 )
-xt "25448,52953,39048,53953"
+xt "25448,52953,39348,53953"
 st "sample='1' AND xmit_bit_cnt = \"000\""
 tm "Condition"
 )
@@ -6232,7 +6236,7 @@ uid 348,0
 va (VaSet
 font "arial,8,0"
 )
-xt "52289,20758,57589,21758"
+xt "52289,20758,57789,21758"
 st "start_xmit='1'"
 tm "Condition"
 )
@@ -6331,7 +6335,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "33720,15709,39220,16709"
+xt "33720,15709,39320,16709"
 st "< Automatic >"
 tm "Actions"
 )
@@ -6483,7 +6487,7 @@ uid 606,0
 va (VaSet
 font "arial,8,0"
 )
-xt "86511,15105,97411,18105"
+xt "86511,15105,97311,18105"
 st "LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;"
@@ -6562,8 +6566,8 @@ tm "SmCompilerDirectivesTextMgr"
 ]
 associable 1
 )
-windowSize "72,45,1102,813"
-viewArea "7800,10600,88900,80700"
+windowSize "72,45,1103,813"
+viewArea "7800,10600,92326,75232"
 cachedDiagramExtent "-450,-175,155000,61414"
 pageSetupInfo (PageSetupInfo
 ptrCmd ""
@@ -6600,7 +6604,7 @@ va (VaSet
 fg "0,0,32768"
 font "arial,8,0"
 )
-xt "200,200,2000,1200"
+xt "200,200,2100,1200"
 st "
 Text
 "
@@ -6679,7 +6683,7 @@ uid 185,0
 va (VaSet
 font "arial,8,0"
 )
-xt "86505,19800,108305,20800"
+xt "86505,19800,108605,20800"
 st "SIGNAL xmit_bit_cnt : std_logic_vector(2 downto 0) := \"000\";"
 tm "LocalDeclTextMgr"
 )
@@ -6985,7 +6989,7 @@ stateOrder [
 name "xmit"
 )
 ]
-lastUid 1556,0
+lastUid 1585,0
 commonDM (CommonDM
 ldm (LogicalDM
 suid 1,0
@@ -8489,7 +8493,7 @@ va (VaSet
 isHidden 1
 font "arial,8,0"
 )
-xt "4750,2625,10250,3625"
+xt "4750,2625,10350,3625"
 st "< Automatic >"
 tm "Actions"
 )
