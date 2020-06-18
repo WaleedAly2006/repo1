@@ -8,6 +8,8 @@
 // Mentor Graphics' HDL Designer(TM)
 //
 
+// modify clock_divider on remote repo
+
 `resetall
 `timescale 1ns/10ps
 
