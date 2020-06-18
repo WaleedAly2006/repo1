@@ -8,6 +8,8 @@
 // Mentor Graphics' HDL Designer(TM)
 //
 
+// modify on local repo
+
 `resetall
 `timescale 1ns/10ps
 
