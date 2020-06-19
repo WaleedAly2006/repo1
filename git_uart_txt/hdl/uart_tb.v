@@ -5,8 +5,7 @@
 //          by - user.group (host.domain)
 //          at - 18:51:35 4 Feb 2002
 //
-// Mentor Graphics' HDL Designer(TM)
-//
+
 
 `resetall
 `timescale 1ns/10ps
