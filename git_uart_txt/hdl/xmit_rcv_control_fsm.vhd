@@ -5,7 +5,6 @@
 --          by - user.group (host.domain)
 --          at - 19:10:38 4 Feb 2002
 --
--- Mentor Graphics' HDL Designer(TM)
 --
 
 LIBRARY ieee;
