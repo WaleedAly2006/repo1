@@ -5,8 +5,6 @@
 --          by - user.group (host.domain)
 --          at - 19:09:51 4 Feb 2002
 --
--- Mentor Graphics' HDL Designer(TM)
---
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
