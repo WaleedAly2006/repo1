@@ -13,6 +13,9 @@
 `resetall
 `timescale 1ns/10ps
 
+// modify for :waly for clock_divider DU
+//              in the master branch
+
 module clock_divider( 
    addr, 
    clk, 

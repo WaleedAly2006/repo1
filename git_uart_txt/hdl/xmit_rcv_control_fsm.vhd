@@ -235,6 +235,8 @@ BEGIN
          CASE xmit_current_state IS
          WHEN waiting_to_xmit =>
             xmit_bit_cnt <= "000";
+            
+            
          WHEN send_start =>
             sout_cld <= '0';
             enable_xmit_clk_cld <= '1';
