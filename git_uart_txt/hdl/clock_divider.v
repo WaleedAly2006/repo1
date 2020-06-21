@@ -13,6 +13,10 @@
 `resetall
 `timescale 1ns/10ps
 
+// modify for :eegbuild  for clock_divider DU
+//              in  master branch
+
+
 module clock_divider( 
    addr, 
    clk, 
