@@ -9,6 +9,8 @@
 
 -- changed done by waly on Windows 
 
+-- first change
+
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 USE ieee.std_logic_arith.all;
