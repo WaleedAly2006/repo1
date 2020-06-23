@@ -1,5 +1,6 @@
-# set_vendor xilinx
-# set_family virtex2p
-# set_device 2vp7
-# set_package fg456
-# set_speed -7
+# set_vendor altera
+# set_family acex1k
+# set_device ep1k10
+# set_package fc256
+# set_speed -1
+
