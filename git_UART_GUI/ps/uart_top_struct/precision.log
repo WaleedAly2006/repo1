@@ -9,47 +9,41 @@
 //  
 //  Running on Windows 10 waly@EGC-WALY-LT  10.0.16299 x64
 //  
-//  Start time Thu May 07 12:44:16 2020
+//  Start time Tue Jun 23 09:01:07 2020
 # -------------------------------------------------
 # Info: [9569]: Logging session transcript to file C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/bin/precision.log
-# COMMAND: source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
+# COMMAND: source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
 # Info: HDL Designer Synthesis run started
-# Info: [9577]: Input directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct
-# Info: [9572]: Moving session transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/precision.log
-# Info: [9558]: Created project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp in folder C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct.
-# Warning: [9508]: Results directory is not set. Use new_project, open_project, or set_results_dir.
-# Info: [9531]: Created directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
-# Info: [9557]: Created implementation uart_top_struct_impl_1 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
-# Info: [9578]: The Results Directory has been set to: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/
-# Info: [9569]: Logging project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/precision.log
-# Info: [9569]: Logging suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/precision.log.suppressed
-# Info: [9552]: Activated implementation uart_top_struct_impl_1 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
-new_impl -name uart_top_struct_impl_1
-# Info: [15300]: Setting up the design to use synthesis library "xazuplus.syn"
-# Info: [579]: The global max fanout is currently set to 10000 for Xilinx - Automotive Zynq Ultrascale+.
-# Info: [15326]: Setting Part to: "xazu3eg-sfva625".
-# Info: [15327]: Setting Process to: "1".
-# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
-# Info: [7512]: The place and route tool for current technology is Vivado.
-# Info: [7512]: The place and route tool for current technology is Vivado.
-# Info: [7513]: The default input to Vivado place and route has been set to "Verilog".
-# Info: [3022]: Reading file: C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/techlibs/xazuplus.syn.
-# Info: [638]: Loading library initialization file C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/userware/xilinx_rename.tcl
-# Info: XILINX
+# Info: [9577]: Input directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct
+# Info: [9572]: Moving session transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/precision.log
+# Info: [9578]: The Results Directory has been set to: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_3/
+# Info: [9568]: Appending project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_3/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_3/precision.log.suppressed
+# Info: [9552]: Activated implementation uart_top_struct_impl_3 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [9531]: Created directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4.
+# Info: [9557]: Created implementation uart_top_struct_impl_4 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [9578]: The Results Directory has been set to: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/
+# Info: [9569]: Logging project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/precision.log.suppressed
+# Info: [9552]: Activated implementation uart_top_struct_impl_4 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [15300]: Setting up the design to use synthesis library "arriav.syn"
+# Info: [579]: The global max fanout is currently set to 1000 for Altera - Arria V.
+# Info: [15326]: Setting Part to: "5AGXBB1D4F31C".
+# Info: [15327]: Setting Process to: "5_H4".
+# Info: [3022]: Reading file: C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/techlibs/arriav.syn.
+# Info: [638]: Loading library initialization file C:/MentorGraphics/PS2017.2_64-bit/Mgc_home/pkgs/psr/userware/armstrong_rename.tcl
 # Info: [40000]: vhdlorder, Release 2017b.6
 # Info: [40000]: Files sorted successfully.
 # Info: [40000]: hdl-analyze, Release RTLC-Precision 2017b.6
-# Info: [42502]: Analyzing input file "C:/Xilinx/Vivado/2018.1/data/vhdl/src/unisims/unisim_retarget_VCOMP.vhd" ...
-# Info: [42502]: Analyzing input file "C:/Xilinx/Vivado/2018.1/data/ip/xpm/xpm_VCOMP.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/control_operation_fsm.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/cpu_interface_intconx.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/clock_divider_flow.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/address_decode_tbl.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/xmit_rcv_control_fsm.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/status_registers_spec.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Builds/HDS/hds_aeshak_GIT_HDS_Main_hint_2020.2_4316671_hint/examples/uart/hdl/serial_interface_struct.vhd" ...
-# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd" ...
-# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/control_operation_fsm.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/cpu_interface_intconx.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/clock_divider_flow.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd" ...
+# Info: [42502]: Analyzing input file "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd" ...
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4.
 # Info: [40000]: RTLC-Driver, Release RTLC-Precision 2017b.6
 # Info: [40000]: Last compiled on Dec 15 2017 14:04:04
 # Info: [44512]: Initializing...
@@ -58,38 +52,129 @@ new_impl -name uart_top_struct_impl_1
 # Info: [40000]: Last compiled on Dec 15 2017 14:16:29
 # Info: [44512]: Initializing...
 # Info: [44522]: Root Module git_UART_GUI.uart_top(struct): Pre-processing...
+# Info: [44506]: Module uart.address_decode(tbl): Pre-processing...
+# Info: [44506]: Module uart.clock_divider(flow): Pre-processing...
+# Info: [44506]: Module uart.cpu_interface(intconx): Pre-processing...
+# Info: [44506]: Module uart.control_operation(fsm): Pre-processing...
+# Info: [45143]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/control_operation_fsm.vhd", line 45: Enumerated type STATE_TYPE with 5 elements encoded as onehot.
+# Info: [45144]: Encodings for STATE_TYPE values.
+# Info: [40000]: value                              	                    STATE_TYPE[4-0]
+# Info: [40000]: idle                               	                         00001
+# Info: [40000]: reading_from_reg                   	                         00010
+# Info: [40000]: clearing_flags                     	                         00100
+# Info: [40000]: writing_to_reg                     	                         01000
+# Info: [40000]: xmitting                           	                         10000
+# Info: [45144]: Extracted FSM in module uart.control_operation(fsm), with state variable = current_state[4:0], async set/reset state(s) = 00001 , number of states = 5.
+# Info: [45144]: Re-encoding 5 state FSM as "onehot".
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	           State Name	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	                 idle	                              00001	                         00001
+# Info: [40000]: FSM:	    1	     reading_from_reg	                              00010	                         00010
+# Info: [40000]: FSM:	    2	       clearing_flags	                              00100	                         00100
+# Info: [40000]: FSM:	    3	       writing_to_reg	                              01000	                         01000
+# Info: [40000]: FSM:	    4	             xmitting	                              10000	                         10000
+# Info: [44506]: Module uart.serial_interface(struct): Pre-processing...
+# Info: [44506]: Module uart.status_registers(spec): Pre-processing...
+# Info: [44506]: Module uart.xmit_rcv_control(fsm): Pre-processing...
+# Info: [45143]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 54: Enumerated type RCV_STATE_TYPE with 8 elements encoded as onehot.
+# Info: [45144]: Encodings for RCV_STATE_TYPE values.
+# Info: [40000]: value                              	                RCV_STATE_TYPE[7-0]
+# Info: [40000]: waiting                            	                      00000001
+# Info: [40000]: check_lock                         	                      00000010
+# Info: [40000]: rcv_locked                         	                      00000100
+# Info: [40000]: read_data                          	                      00001000
+# Info: [40000]: incr_count2                        	                      00010000
+# Info: [40000]: done_read                          	                      00100000
+# Info: [40000]: read_stop_bit                      	                      01000000
+# Info: [40000]: finish_rcv                         	                      10000000
+# Info: [45143]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 64: Enumerated type XMIT_STATE_TYPE with 7 elements encoded as onehot.
+# Info: [45144]: Encodings for XMIT_STATE_TYPE values.
+# Info: [40000]: value                              	               XMIT_STATE_TYPE[6-0]
+# Info: [40000]: waiting_to_xmit                    	                       0000001
+# Info: [40000]: send_start                         	                       0000010
+# Info: [40000]: send_data                          	                       0000100
+# Info: [40000]: incr_count                         	                       0001000
+# Info: [40000]: done_xmit                          	                       0010000
+# Info: [40000]: send_stop_bit                      	                       0100000
+# Info: [40000]: finish_xmit                        	                       1000000
+# Info: [45144]: Extracted FSM in module uart.xmit_rcv_control(fsm), with state variable = xmit_current_state[6:0], async set/reset state(s) = 0000001 , number of states = 7.
+# Info: [45144]: Re-encoding 7 state FSM as "onehot".
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	          State Name	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	     waiting_to_xmit	                            0000001	                       0000001
+# Info: [40000]: FSM:	    1	          send_start	                            0000010	                       0000010
+# Info: [40000]: FSM:	    2	           send_data	                            0000100	                       0000100
+# Info: [40000]: FSM:	    3	          incr_count	                            0001000	                       0001000
+# Info: [40000]: FSM:	    4	         finish_xmit	                            1000000	                       0010000
+# Info: [40000]: FSM:	    5	           done_xmit	                            0010000	                       0100000
+# Info: [40000]: FSM:	    6	       send_stop_bit	                            0100000	                       1000000
+# Info: [45144]: Extracted FSM in module uart.xmit_rcv_control(fsm), with state variable = rcv_current_state[7:0], async set/reset state(s) = 00000001 , number of states = 8.
+# Info: [45144]: Re-encoding 8 state FSM as "onehot".
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	        State Name	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	           waiting	                           00000001	                      00000001
+# Info: [40000]: FSM:	    1	       incr_count2	                           00010000	                      00000010
+# Info: [40000]: FSM:	    2	        check_lock	                           00000010	                      00000100
+# Info: [40000]: FSM:	    3	        rcv_locked	                           00000100	                      00001000
+# Info: [40000]: FSM:	    4	         read_data	                           00001000	                      00010000
+# Info: [40000]: FSM:	    5	         done_read	                           00100000	                      00100000
+# Info: [40000]: FSM:	    6	     read_stop_bit	                           01000000	                      01000000
+# Info: [40000]: FSM:	    7	        finish_rcv	                           10000000	                      10000000
+# Warning: [45729]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd", line 17: Input port clk has never been used.
+# Warning: [45729]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd", line 18: Input port rst has never been used.
+# Info: [44508]: Module uart.address_decode(tbl): Compiling...
+# Info: [44508]: Module uart.clock_divider(flow): Compiling...
+# Info: [44838]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/clock_divider_flow.vhd", line 76: Macro Selcounter "selcounter_16_16_16_0_1_flatten" inferred for node "clk_cnt".
+# Info: [44508]: Module uart.control_operation(fsm): Compiling...
+# Info: [44508]: Module uart.cpu_interface(intconx): Compiling...
+# Info: [44508]: Module uart.status_registers(spec): Compiling...
+# Info: [45308]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd", line 60: The comparison operator has been optimized to constant 0.
+# Warning: [45702]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd", line 32: Initial value for xmitting_reg is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd", line 32: Initial value for done_xmitting_reg is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd", line 33: Initial value for rcving_reg is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd", line 33: Initial value for done_rcving_reg is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44508]: Module uart.xmit_rcv_control(fsm): Compiling...
+# Warning: [45702]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 52: Initial value for xmit_bit_cnt[2:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44812]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 416: Sharing register enable_xmit_clk with xmitting
+# Info: [44838]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 122: Macro Modgen_Counter "counter_up_sclear_aclear_clock_clk_en_cnt_en_0_3" inferred for node "rcv_bit_cnt_cld".
+# Info: [44838]: "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd", line 332: Macro Modgen_Counter "counter_up_sclear_aclear_clock_clk_en_cnt_en_0_3" inferred for node "xmit_bit_cnt".
+# Info: [44508]: Module uart.serial_interface(struct): Compiling...
 # Info: [44523]: Root Module git_UART_GUI.uart_top(struct): Compiling...
 # Info: [44842]: Compilation successfully completed.
-# Info: [44856]: Total lines of RTL compiled: 169.
-# Info: [44835]: Total CPU time for compilation: 0.5 secs.
-# Info: [44513]: Overall running time for compilation: 2.0 secs.
-# Warning: [4560]: Found black-box: git_uart_gui.serial_interface; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 111:.
-# Warning: [4560]: Found black-box: git_uart_gui.cpu_interface; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 94:.
-# Warning: [4560]: Found black-box: git_uart_gui.clock_divider; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 80:.
-# Warning: [4560]: Found black-box: git_uart_gui.address_decode; "C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/hdl/uart_top_struct.vhd", line 69:.
-# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [44841]: Counter Inferencing === Detected : 3, Inferred (Modgen/Selcounter/AddSub) : 3 (2 / 1 / 0), AcrossDH (Merged/Not-Merged) : (0 / 0), Not-Inferred (Acrossdh/Attempted) : (0 / 0), Local Vars : 0 ===
+# Info: [44856]: Total lines of RTL compiled: 1074.
+# Info: [44835]: Total CPU time for compilation: 1.2 secs.
+# Info: [44513]: Overall running time for compilation: 3.0 secs.
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4.
+# Info: [3022]: Reading file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hds/uart_top/struct.bd.info/Synthesis/Constraints/uart_top.sdc.
 # Info: [15332]: Doing rtl optimizations.
+# Info: [3022]: Reading file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hds/uart_top/struct.bd.info/Synthesis/Constraints/uart_top.sdc.
 # Info: [664]: Finished compiling design.
-# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1.
+# Info: [661]: Current working directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4.
+# Info: [4558]: instance:U_1.U_0 Instance is flattened in hierarchical block view:.uart.cpu_interface.intconx.
+# Info: [4558]: instance:U_4.U_1 Instance is flattened in hierarchical block view:.uart.serial_interface.struct.
+# Info: [4558]: instance:U_4.U_0 Instance is flattened in hierarchical block view:.uart.serial_interface.struct.
+# Info: [4558]: instance:U_3 Instance is flattened in hierarchical block view:.git_uart_gui.uart_top.struct.
+# Info: [4558]: instance:U_1 Instance is flattened in hierarchical block view:.git_uart_gui.uart_top.struct.
+# Info: [4558]: instance:U_2 Instance is flattened in hierarchical block view:.git_uart_gui.uart_top.struct.
+# Info: [4558]: instance:U_4 Instance is flattened in hierarchical block view:.git_uart_gui.uart_top.struct.
 # Info: [15002]: Optimizing design view:.git_uart_gui.uart_top.struct
-# Info: [15002]: Optimizing design view:.git_uart_gui.uart_top.struct
-# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.edf.
-# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
-# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.xdc.
-# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.vhd.
-# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
-# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.v.
-# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_1/uart_top.tcl
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/uart_top.edf.
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/uart_top.vhd.
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/uart_top.v.
+# Info: [3027]: Writing file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/uart_top.vqm.
+# Info: -- Writing file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4/uart_top.tcl
+# Info: exq_pr_compile_project gen_vcf uart_top 1
 # Info: [664]: Finished synthesizing design.
-# Info: [11019]: Total CPU time for synthesis: 0.3 s secs.
-# Info: [11020]: Overall running time for synthesis: 0.5 s secs.
+# Info: [11019]: Total CPU time for synthesis: 2.1 s secs.
+# Info: [11020]: Overall running time for synthesis: 2.4 s secs.
 # Info: HDL Designer Synthesis run finished
-source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
+source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
 # COMMAND: save_project
-# Info: [9565]: Saved implementation uart_top_struct_impl_1 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [9565]: Saved implementation uart_top_struct_impl_4 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
 save_project
 # COMMAND: close_project -discard
-# Info: [9530]: Closed project: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/repo3_from_hds/cloned_files/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [9530]: Closed project: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
 close_project -discard
 # COMMAND: exit
 exit

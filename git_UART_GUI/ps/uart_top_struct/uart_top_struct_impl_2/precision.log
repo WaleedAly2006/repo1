@@ -1,0 +1,17 @@
+# Info: [9569]: Logging project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_2/precision.log
+# Info: [9569]: Logging suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation uart_top_struct_impl_2 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [15300]: Setting up the design to use synthesis library "xas3.syn"
+# Info: [579]: The global max fanout is currently set to 10000 for Xilinx - AUTOMOTIVE SPARTAN3.
+# Info: [15326]: Setting Part to: "xa3s50vqg100".
+# Info: [15327]: Setting Process to: "4".
+# Info: [7512]: The place and route tool for current technology is ISE.
+# Error: [744]: Command 'setup_design -vivado' is not available for the current technology.
+source C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/hds/precision.tcl
+# COMMAND: exit -force
+# Warning: [9526]: Discarded unsaved work in implementation uart_top_struct_impl_2.
+# Info: [9568]: Appending project transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_2/precision.log
+# Info: [9568]: Appending suppressed messages transcript to file C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_2/precision.log.suppressed
+# Info: [9552]: Activated implementation uart_top_struct_impl_2 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.
+# Info: [9531]: Created directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_3.
+# Info: [9557]: Created implementation uart_top_struct_impl_3 in project C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct.psp.

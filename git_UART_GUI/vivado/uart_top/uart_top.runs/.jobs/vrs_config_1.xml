@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/uart_top.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+</Runs>
+

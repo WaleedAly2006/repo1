@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 23 09:14:40 2020
+# Process ID: 764
+# Current directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top
+# Command line: vivado.exe -mode gui -journal ./uart_top_Flow.jou -log ./uart_top_Flow.log -source ./HDS_Scripts/uart_top_Flow.tcl
+# Log file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/./uart_top_Flow.log
+# Journal file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top\./uart_top_Flow.jou
+#-----------------------------------------------------------
+start_gui
+source ./HDS_Scripts/uart_top_Flow.tcl
+# lappend ::auto_path "$::env(HDS_HOME)/resources/tcl/tcllib1.4"
+# set ::hdsDebug 0
+# proc ::hdsDebugPuts {msg} {
+#    if {$::hdsDebug} {
+#       puts $msg
+#    }
+# }
+# set normVars {HDS_PROJECT_DIR HDS_TEAM_HOME HDS_HOME XILINX_VIVADO}
+# foreach varName $normVars {
+#    if {[info exists ::env($varName)]} {
+#       set ::env($varName) [file normalize [subst -nobackslash {$::env($varName)}]]
+#    }
+# }
+# puts "## HDS #Running Vivado Project Creation/Update#"
+## HDS #Running Vivado Project Creation/Update#
+# set ::errorCount 0
+# if {[catch {source ./HDS_Scripts/uart_top_Create.tcl} errMsg]} {
+#    if {[regexp "(?q)$errMsg" $errorInfo]} {
+#       puts "Error: $errorInfo"
+#    } else {
+#       puts "Error: $errMsg"
+#    }
+#    exit
+# }
+Creating project ./uart_top.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top'
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+create_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:14 . Memory (MB): peak = 827.262 ; gain = 120.652
+## get_filesets
+## get_property DEFAULT_LIB [current_project]
+## string totitle $simulatorType
+## current_project
+## version -short
+## list $refVer $currVer
+## lsort -increasing -dictionary $verList
+## current_project
+Project HDL files to add stored in:
+   ./HDS_Scripts/uart_top_fileList.tcl
+## list
+## list
+## list
+## join $vivadoCoresExtList "|"
+## get_files -all -quiet
+## join $nonIpFiles \n
+## join $ipFiles \n
+## join $coreIpFiles \n
+### list
+### list
+### list
+### list
+# if {$::errorCount == 0} {
+#    puts "Note: \"source ./HDS_Scripts/uart_top_Create.tcl\" completed successfully\n"
+# } else {
+#    puts "Error: \"source ./HDS_Scripts/uart_top_Create.tcl\" completed with errors\n"
+# }
+Note: "source ./HDS_Scripts/uart_top_Create.tcl" completed successfully
+
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+[Tue Jun 23 09:16:14 2020] Launched synth_1...
+Run output will be captured here: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/uart_top.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 23 09:17:50 2020] Launched impl_1...
+Run output will be captured here: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/uart_top.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jun 23 09:21:57 2020] Launched impl_1...
+Run output will be captured here: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/uart_top.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 23 09:22:08 2020...

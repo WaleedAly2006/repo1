@@ -1,0 +1,49 @@
+//  Precision RTL Synthesis 64-bit 2017.2.0.12 (Production Release) Mon Jan  1 23:50:57 PST 2018
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2018, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows 10 waly@EGC-WALY-LT  10.0.16299 x64
+//  
+//  Start time Tue Jun 23 09:01:07 2020
+
+***************************************************************
+Device Utilization for 5AGXBB1D4F31C
+***************************************************************
+Resource                          Used    Avail   Utilization
+---------------------------------------------------------------
+IOs                               26      390       6.67%
+LUTs                              124     294320    0.11%
+Registers                         80      226400    0.04%
+Memory Bits                       0       15462400   0.00%
+DSP Blocks                        0       920       0.00%
+---------------------------------------------------------------
+
+*******************************************************
+
+Library: git_uart_gui    Cell: uart_top    View: struct
+
+*******************************************************
+
+  Cell                Library  References     Total Area
+
+ GND                  arriav     1 x
+ NOT                  arriav     4 x
+ VCC                  arriav     1 x
+ arriav_io_ibuf       arriav    16 x
+ arriav_io_obuf       arriav    10 x
+ arriav_lcell_comb    arriav   124 x      1    124 LUTs
+ dffeas               arriav    80 x      1     80 Registers
+
+ Number of ports :                           26
+ Number of nets :                           282
+ Number of instances :                      236
+ Number of references to this view :          0
+
+Total accumulated area : 
+ Number of LUTs :                           124
+ Number of Registers :                       80
+ Number of accumulated instances :          236

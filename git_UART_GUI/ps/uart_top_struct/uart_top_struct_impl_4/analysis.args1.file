@@ -1,0 +1,11 @@
+8:-out_dir
+157:C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4//rtlc.out
+10:-pipe_flow
+4:-vhf
+168:C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4//hdlAnalyze_vhdlfile
+25:-comment_transoff_regions
+13:-lib_map_file
+157:C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct/uart_top_struct_impl_4//.jaguarc
+7:-sv2009
+243:+incdir+C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl+C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/ps/uart_top_struct
+17:+define+synthesis

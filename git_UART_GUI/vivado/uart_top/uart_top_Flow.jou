@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 23 09:14:40 2020
+# Process ID: 764
+# Current directory: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top
+# Command line: vivado.exe -mode gui -journal ./uart_top_Flow.jou -log ./uart_top_Flow.log -source ./HDS_Scripts/uart_top_Flow.tcl
+# Log file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/./uart_top_Flow.log
+# Journal file: C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top\./uart_top_Flow.jou
+#-----------------------------------------------------------
+start_gui
+source ./HDS_Scripts/uart_top_Flow.tcl
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1

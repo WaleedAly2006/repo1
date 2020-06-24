@@ -17,17 +17,35 @@
 # received written authorization from the owner.
 #
 #
-# Date : Thu May 07 12:44:16 2020
+# Date : Tue Jun 23 09:01:07 2020
 # Designer : waly
 #
 #<PROJFILE format='0'>
 error "Error: This file can only be used with Precision version 2003c or later." "load_project failed" E_NEW_PROJECT
 #</PROJFILE>
 #<OBJ name='project' version='0'>
-#  <PROP key='defimpl' type='ESVT_STRING' value='uart_top_struct_impl_1' />
+#  <PROP key='defimpl' type='ESVT_STRING' value='uart_top_struct_impl_4' />
 #  <PROP key='usetempdir' type='ESVT_BOOL' value='false' />
 #  <OBJ name='impl' version='0'>
 #    <PROP key='name' type='ESVT_STRING' value='uart_top_struct_impl_1' />
+#    <PROP key='comment' type='ESVT_STRING' value='' />
+#    <PROP key='basename' type='ESVT_STRING' value='uart_top' />
+#    <PROP key='impltype' type='ESVT_STRING' value='default' />
+#  </OBJ>
+#  <OBJ name='impl' version='0'>
+#    <PROP key='name' type='ESVT_STRING' value='uart_top_struct_impl_2' />
+#    <PROP key='comment' type='ESVT_STRING' value='' />
+#    <PROP key='basename' type='ESVT_STRING' value='' />
+#    <PROP key='impltype' type='ESVT_STRING' value='default' />
+#  </OBJ>
+#  <OBJ name='impl' version='0'>
+#    <PROP key='name' type='ESVT_STRING' value='uart_top_struct_impl_3' />
+#    <PROP key='comment' type='ESVT_STRING' value='' />
+#    <PROP key='basename' type='ESVT_STRING' value='' />
+#    <PROP key='impltype' type='ESVT_STRING' value='default' />
+#  </OBJ>
+#  <OBJ name='impl' version='0'>
+#    <PROP key='name' type='ESVT_STRING' value='uart_top_struct_impl_4' />
 #    <PROP key='comment' type='ESVT_STRING' value='' />
 #    <PROP key='basename' type='ESVT_STRING' value='uart_top' />
 #    <PROP key='impltype' type='ESVT_STRING' value='default' />

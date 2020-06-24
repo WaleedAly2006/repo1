@@ -1,0 +1,437 @@
+
+*** Running vivado
+    with args -log uart_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source uart_top.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source uart_top.tcl -notrace
+Command: synth_design -top uart_top -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-1223] The version limit for your license is '2020.06' and will expire in 7 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 33164 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 418.699 ; gain = 97.262
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'uart_top' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:47]
+INFO: [Synth 8-3491] module 'address_decode' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd:13' bound to instance 'U_3' of component 'address_decode' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'address_decode' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'address_decode' (1#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/address_decode_tbl.vhd:41]
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/clock_divider_flow.vhd:13' bound to instance 'U_2' of component 'clock_divider' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:151]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/clock_divider_flow.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (2#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/clock_divider_flow.vhd:43]
+INFO: [Synth 8-3491] module 'cpu_interface' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/cpu_interface_intconx.vhd:13' bound to instance 'U_1' of component 'cpu_interface' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'cpu_interface' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/cpu_interface_intconx.vhd:51]
+INFO: [Synth 8-3491] module 'control_operation' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/control_operation_fsm.vhd:13' bound to instance 'U_0' of component 'control_operation' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/cpu_interface_intconx.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'control_operation' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/control_operation_fsm.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'control_operation' (3#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/control_operation_fsm.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'cpu_interface' (4#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/cpu_interface_intconx.vhd:51]
+INFO: [Synth 8-3491] module 'serial_interface' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:13' bound to instance 'U_4' of component 'serial_interface' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:180]
+INFO: [Synth 8-638] synthesizing module 'serial_interface' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:53]
+INFO: [Synth 8-226] default block is never used [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:144]
+INFO: [Synth 8-3491] module 'status_registers' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd:13' bound to instance 'U_1' of component 'status_registers' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'status_registers' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'status_registers' (5#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/status_registers_spec.vhd:30]
+INFO: [Synth 8-3491] module 'xmit_rcv_control' declared at 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:13' bound to instance 'U_0' of component 'xmit_rcv_control' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'xmit_rcv_control' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:49]
+INFO: [Synth 8-226] default block is never used [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:139]
+INFO: [Synth 8-226] default block is never used [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:263]
+INFO: [Synth 8-256] done synthesizing module 'xmit_rcv_control' (6#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:49]
+INFO: [Synth 8-256] done synthesizing module 'serial_interface' (7#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/serial_interface_struct.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'uart_top' (8#1) [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hdl/uart_top_struct.vhd:47]
+WARNING: [Synth 8-3331] design address_decode has unconnected port clk
+WARNING: [Synth 8-3331] design address_decode has unconnected port rst
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 473.984 ; gain = 152.547
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 473.984 ; gain = 152.547
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 473.984 ; gain = 152.547
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hds/uart_top/struct.bd.info/Synthesis/Constraints/uart_top.sdc]
+Finished Parsing XDC File [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/hds/uart_top/struct.bd.info/Synthesis/Constraints/uart_top.sdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 976.660 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:36 ; elapsed = 00:00:44 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'control_operation'
+INFO: [Synth 8-5544] ROM "start_xmit" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enable_write" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "clear_flags" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'xmitting_cld_reg' into 'enable_xmit_clk_cld_reg' [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:314]
+WARNING: [Synth 8-6014] Unused sequential element xmitting_cld_reg was removed.  [C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd:314]
+INFO: [Synth 8-802] inferred FSM for state register 'rcv_current_state_reg' in module 'xmit_rcv_control'
+INFO: [Synth 8-802] inferred FSM for state register 'xmit_current_state_reg' in module 'xmit_rcv_control'
+INFO: [Synth 8-5544] ROM "rcving" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "done_rcving" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "rcv_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "done_xmitting" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "enable_xmit_clk_cld" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "xmit_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "xmit_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "xmit_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "xmit_next_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00001 |                              000
+          writing_to_reg |                            00010 |                              011
+                xmitting |                            00100 |                              100
+        reading_from_reg |                            01000 |                              001
+          clearing_flags |                            10000 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'control_operation'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 waiting |                              000 |                              000
+              check_lock |                              001 |                              001
+              rcv_locked |                              010 |                              010
+               read_data |                              011 |                              011
+             incr_count2 |                              100 |                              100
+               done_read |                              101 |                              101
+           read_stop_bit |                              110 |                              110
+              finish_rcv |                              111 |                              111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'rcv_current_state_reg' using encoding 'sequential' in module 'xmit_rcv_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+         waiting_to_xmit |                          0000001 |                              000
+              send_start |                          0000010 |                              001
+               send_data |                          0000100 |                              010
+              incr_count |                          0001000 |                              011
+               done_xmit |                          0010000 |                              100
+           send_stop_bit |                          0100000 |                              101
+             finish_xmit |                          1000000 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'xmit_current_state_reg' using encoding 'one-hot' in module 'xmit_rcv_control'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:45 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 4     
+	   4 Input      8 Bit        Muxes := 1     
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 6     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 8     
+	   3 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	   6 Input      3 Bit        Muxes := 1     
+	   7 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
+	   8 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module address_decode 
+Detailed RTL Component Info : 
++---Muxes : 
+	   7 Input      2 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 3     
+Module clock_divider 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     16 Bit       Adders := 2     
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 1     
+Module control_operation 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 8     
+Module cpu_interface 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module status_registers 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module xmit_rcv_control 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Registers : 
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   7 Input      7 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 6     
+	   3 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 8     
+	   6 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 3     
+Module serial_interface 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 2     
+	   4 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:01:00 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:50 ; elapsed = 00:01:00 . Memory (MB): peak = 976.660 ; gain = 655.223
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:01:00 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    12|
+|3     |LUT1   |    16|
+|4     |LUT2   |     6|
+|5     |LUT3   |    24|
+|6     |LUT4   |    39|
+|7     |LUT5   |    10|
+|8     |LUT6   |    37|
+|9     |FDCE   |    71|
+|10    |FDPE   |     4|
+|11    |IBUF   |    16|
+|12    |OBUF   |    10|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+------------------+------+
+|      |Instance |Module            |Cells |
++------+---------+------------------+------+
+|1     |top      |                  |   246|
+|2     |  U_1    |cpu_interface     |    15|
+|3     |    U_0  |control_operation |    15|
+|4     |  U_2    |clock_divider     |   115|
+|5     |  U_4    |serial_interface  |    89|
+|6     |    U_0  |xmit_rcv_control  |    60|
+|7     |    U_1  |status_registers  |     9|
++------+---------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:34 . Memory (MB): peak = 977.457 ; gain = 153.344
+Synthesis Optimization Complete : Time (s): cpu = 00:00:52 ; elapsed = 00:01:02 . Memory (MB): peak = 977.457 ; gain = 656.020
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:12 . Memory (MB): peak = 1003.637 ; gain = 695.211
+INFO: [Common 17-1381] The checkpoint 'C:/d_drive/Work/HDS_work/Projects/GIT/GIT_workspaces/github_project/hds_github_project/repo1/git_UART_GUI/vivado/uart_top/uart_top.runs/synth_1/uart_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file uart_top_utilization_synth.rpt -pb uart_top_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.331 . Memory (MB): peak = 1003.637 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 23 09:17:40 2020...

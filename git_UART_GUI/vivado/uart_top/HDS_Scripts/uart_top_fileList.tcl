@@ -1,0 +1,29 @@
+set hdsFileList [list]
+set ipFileList [list]
+array set hdsFileDialectsArray [list]
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/control_operation_fsm.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/control_operation_fsm.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/cpu_interface_intconx.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/cpu_interface_intconx.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/clock_divider_flow.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/clock_divider_flow.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/address_decode_tbl.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/address_decode_tbl.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/xmit_rcv_control_fsm.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/status_registers_spec.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/status_registers_spec.vhd") "VHDL_93"
+lappend hdsFileList uart
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/serial_interface_struct.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/examples/uart/hdl/serial_interface_struct.vhd") "VHDL_93"
+lappend hdsFileList git_UART_GUI
+lappend hdsFileList "$::env(HDS_PROJECT_DIR)/repo1/git_UART_GUI/hdl/uart_top_struct.vhd"
+set hdsFileDialectsArray("$::env(HDS_PROJECT_DIR)/repo1/git_UART_GUI/hdl/uart_top_struct.vhd") "VHDL_93"
+set vlogGlobalFileList [list]
+
