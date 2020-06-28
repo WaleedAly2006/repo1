@@ -36,6 +36,7 @@ END xmit_rcv_control ;
 
 ARCHITECTURE fsm OF xmit_rcv_control IS
 
+-- new mod 
    -- Architecture Declarations
    SIGNAL xmit_bit_cnt : std_logic_vector(2 downto 0) := "000";
 
