@@ -94,164 +94,104 @@ NO_GRAPHIC 63
 DESIGN uart_top
 VIEW struct.bd
 NO_GRAPHIC 64
-LIBRARY uart
-DESIGN address_decode
-VIEW tbl
-GRAPHIC 12,0 66 0 
+LIBRARY git_UART_GUI
+DESIGN uart_top
+VIEW struct
+GRAPHIC 3592,0 66 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 186,0 68 0 
+NO_GRAPHIC 78
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 208,0 69 0 
+GRAPHIC 24,0 80 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 219,0 70 0 
+GRAPHIC 37,0 83 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 37,0 71 0 
+GRAPHIC 149,0 84 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 149,0 72 0 
+GRAPHIC 161,0 85 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 94,0 73 0 
+GRAPHIC 291,0 86 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 105,0 74 0 
+GRAPHIC 172,0 87 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 3592,0 77 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 90,0 79 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 96,0 80 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 102,0 81 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 108,0 82 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 120,0 83 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 126,0 84 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 132,0 85 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 138,0 86 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 114,0 87 0 
-DESIGN clock_divider
-VIEW symbol.sb
-GRAPHIC 144,0 88 0 
+GRAPHIC 382,0 89 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 24,0 91 0 
+GRAPHIC 105,0 90 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 208,0 93 0 
+GRAPHIC 1702,0 91 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 37,0 94 0 
+GRAPHIC 394,0 92 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 149,0 95 0 
+GRAPHIC 1708,0 93 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 161,0 96 0 
+GRAPHIC 1714,0 94 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 291,0 97 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 172,0 98 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 219,0 99 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 382,0 100 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 105,0 101 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 1702,0 102 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 394,0 103 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 1708,0 104 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 1714,0 105 0 
+NO_GRAPHIC 95
 LIBRARY git_UART_GUI
 DESIGN uart_top
 VIEW struct.bd
-NO_GRAPHIC 108
+NO_GRAPHIC 97
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 12,0 111 0 
+GRAPHIC 3592,0 100 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 3592,0 112 0 
+GRAPHIC 24,0 101 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 24,0 113 0 
+NO_GRAPHIC 104
 DESIGN uart_top
 VIEW struct.bd
-NO_GRAPHIC 116
+NO_GRAPHIC 106
 DESIGN uart_top
 VIEW struct.bd
-NO_GRAPHIC 118
+GRAPHIC 3592,0 108 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 12,0 120 0 
+GRAPHIC 197,0 110 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 3592,0 130 0 
+GRAPHIC 530,0 111 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 197,0 132 0 
+GRAPHIC 60,0 112 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 530,0 133 0 
+GRAPHIC 316,0 113 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 60,0 134 0 
+GRAPHIC 266,0 114 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 316,0 135 0 
+GRAPHIC 369,0 115 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 266,0 136 0 
+GRAPHIC 277,0 116 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 369,0 137 0 
+GRAPHIC 538,0 117 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 277,0 138 0 
+GRAPHIC 291,0 118 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 538,0 139 0 
+GRAPHIC 255,0 119 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 291,0 140 0 
+GRAPHIC 24,0 121 0 
 DESIGN uart_top
 VIEW struct.bd
-GRAPHIC 255,0 141 0 
-DESIGN uart_top
-VIEW struct.bd
-GRAPHIC 24,0 143 0 
-DESIGN uart_top
-VIEW struct.bd
-NO_GRAPHIC 160
+NO_GRAPHIC 138
